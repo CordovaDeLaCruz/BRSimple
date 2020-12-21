@@ -143,620 +143,1201 @@
       padding-top: 40px;
       border-radius: 0 0 10px 10px;
   }
-  
-  @media screen and (max-width:364px){
-      .FB_tbl_1,.font_select_1,.sec_btn_1,.sec_btn_2,.tbl_FS_1{
-          box-sizing:border-box
-      }
-       
-       .dist_SS_cs_v2{
-          margin-top:0
-      }
-       .img_tarjeta_1{
-          width:100%;
-          box-shadow:0 10px 20px rgba(41,41,41,.03)
-      }
-     
-       .font_det_pdf,.font_det_pdf2,.font_footer,.font_txt_1_1{
-          font-family:Montserrat;
-          font-style:normal
-      }
-       body{
-          background:#fff
-      }
-       .tbl_SS,.tbl_pop_2{
-          max-width:343px
-      }
-    
-       .font_footer{
-          font-size:16px;
-          line-height:20px
-      }
-       .logo_pts{
-          margin-bottom:5px;
-          margin-left:13px
-      }
-    
-       .font_txt_1_1,.font_txt_1_pos_1{
-          text-align:left;
-          margin-bottom:0;
-          cursor:pointer
-      }
-       .font_txt_1_pos_1{
-          width:309px;
-          padding-left:6px
-      }
-       .FB_SS_btn_1_2::before,.btn_SS_1_hec::before{
-          content:url(../../../../img/i-pdf.svg);
-          padding:0 15px 0 0
-      }
-    
-       .centrar2{
-          align-items:center;
-          display:flex;
-          justify-content:center
-      }
-       .dist_rf{
-          margin-top:15px
-      }
-       .dist_f_3{
-          top:-70px
-      }
-       .dist_f_2{
-          top:161px
-      }
-       .footer_size{
-          height:705px
-      }
-       .font_footer{
-          font-weight:600;
-          text-align:center;
-          color:#fff;
-          margin-bottom:0;
-          height:22px
-      }
-       .font_SS_3_3,.font_SS_3_4,.font_SS_3_5{
-          text-align:right;
-          font-family:Montserrat;
-          font-style:normal
-      }
-       .font_SS_3_4,.font_SS_3_5{
-          font-weight:400;
-          font-size:16px;
-          line-height:20px;
-          color:#523178;
-          height:20px
-      }
-    
-       .font_SS_3_5{
-          width:102px;
-          margin-top:18px;
-          margin-bottom:17px
-      }
-       .font_SS_3_4{
-          margin-bottom:32px;
-          margin-top:17px;
-          width:66px
-      }
-       .font_SS_2_1_1,.font_SS_2_3,.font_SS_2_4,.font_SS_2_4_1{
-          font-weight:600;
-          font-size:12px;
-          line-height:15px;
-          color:#000;
-          font-family:Montserrat;
-          font-style:normal
-      }
-       .font_SS_2_4_1{
-          margin-top:21px;
-          margin-bottom:19px;
-          height:15px
-      }
-       .font_SS_2_4{
-          margin-top:12px;
-          margin-bottom:27px;
-          width:55px;
-          height:30px
-      }
-       .img_app_store,.img_google{
-          height:57px;
-          width:206px;
-          margin-top:20px
-      }
-       .font_SS_2_1_1{
-          width:79px;
-          height:30px;
-          margin-bottom:12px;
-          margin-top:12px
-      }
-    
-       .logo_tool,.logo_tool2{
-          height:18px;
-          width:18px
-      }
-       .logo_tool2{
-          cursor:pointer;
-          margin-left:10px
-      }
-       .logo_tool{
-          margin-bottom:19px
-      }
-       .font_SS_2_3{
-          margin-top:13px;
-          margin-bottom:11px;
-          height:30px;
-          width:132px
-      }
-       .font_SS_3_3{
-          font-weight:400;
-          font-size:16px;
-          line-height:23px;
-          color:#523178;
-          margin-top:4px;
-          margin-bottom:3px;
-          height:47px;
-          width:146px
-      }
-    
-       .pos_derecha{
-          float:left
-      }
-       .img_FS_sc_1{
-          background:url(https://s3.amazonaws.com/estadocuentainteligentehtmlqa/imagenes/estaticas/Cabecera-estrella-fondo.png) no-repeat, url(../../../../img/starBackground.svg) no-repeat;
-          width:172px;
-          height:117px;
-          z-index:initial;
-          border:0;
-          float:right
-      }
-       .btn_SS_1_h,.btn_SS_1_hec{
-          font-weight:600;
-          line-height:22px;
-          font-size:18px;
-          text-align:center;
-          color:#fff;
-          width:100%;
-          height:62px;
-          font-family:Montserrat;
-          font-style:normal
-      }
-       .dist_L_R{
-          margin-left:17px;
-          margin-right:17px
-      }
-       .font_FS_4,.font_FS_5,.font_FS_6{
-          margin-left:20px;
-          font-family:Montserrat;
-          font-style:normal
-      }
-       .btn_SS_1_hec{
-          background:#8d4896;
-          border-radius:4px;
-          border:0;
-          display:flex;
-          flex-flow:row;
-          align-items:center;
-          justify-content:center;
-          margin-bottom: 12px;
-      }
-       .btn_SS_1_h{
-          background:#ee2737;
-          border-radius:4px;
-          border:0
-      }
-      .btn_SS_1_hec.desktop{
-        display: none;
-      }
-       .size_1{
-          width:185px;
-          padding-left:0;
-          padding-right:0
-      }
-       .size_2{
-          width:67px
-      }
-       .font_SS_3_2{
-          font-family:Montserrat;
-          font-style:normal;
-          font-weight:400;
-          font-size:16px;
-          line-height:20px;
-          color:#523178;
-          margin-top:17px;
-          margin-bottom:18px
-      }
-       .font_SS_2_2{
-          font-family:Montserrat;
-          font-style:normal;
-          font-weight:600;
-          font-size:12px;
-          line-height:15px;
-          color:#000;
-          margin-top:12px;
-          margin-bottom:13px;
-          width:80px;
-          height:30px
-      }
-       .font_SS_3_1{
-          font-family:Montserrat;
-          font-style:normal;
-          font-weight:400;
-          font-size:16px;
-          line-height:20px;
-          color:#523178;
-          margin-top:17px;
-          margin-bottom:17px;
-          height:20px
-      }
-       .font_SS_2_1{
-          font-family:Montserrat;
-          font-style:normal;
-          font-weight:600;
-          font-size:12px;
-          line-height:15px;
-          color:#000;
-          margin-top:12px;
-          margin-bottom:13px;
-          width:95px;
-          height:30px
-      }
-       .font_SS_3{
-          font-family:Montserrat;
-          font-style:normal;
-          font-weight:400;
-          font-size:16px;
-          line-height:20px;
-          color:#523178;
-          margin-top:38px;
-          margin-bottom:12px;
-          height:20px
-      }
-       .font_SS_1,.font_SS_2{
-          font-weight:600;
-          font-family:Montserrat;
-          font-style:normal
-      }
-       .font_SS_2{
-          font-size:12px;
-          line-height:15px;
-          color:#000;
-          margin-top:41px;
-          margin-bottom:14px;
-          height:15px
-      }
-       .tbl_SS{
-          height:680px;
-          background:#fff;
-          box-shadow:0 10px 20px rgba(41,41,41,.03);
-          border-radius:8px;
-          margin-top:20px
-      }
-       .font_SS_1{
-          font-size:14px;
-          line-height:17px;
-          color:#939393;
-          margin-top:22px;
-          margin-bottom:0
-      }
-       .img_FS_2{
-          width:92px;
-          height:29px;
-          margin-top:17px;
-          margin-right:16px;
-          position:absolute;
-          right:0;
-          z-index:1
-      }
-       .font_FS_6{
-          font-weight:500;
-          font-size:12px;
-          line-height:15px;
-          color:#fff;
-          border-bottom:5px
-      }
-       .font_FS_4,.font_FS_5{
-          line-height:normal;
-          margin-bottom:0
-      }
-       .font_FS_5{
-          font-weight:700;
-          font-size:42px;
-          color:#fff;
-          height:42px
-      }
-       .font_FS_4{
-          font-weight:600;
-          font-size:14px;
-          color:#f8c21c;
-          margin-top:20px
-      }
-        .navbar-fixed-top{
-            position: relative;
-        }
-       .tbl_FS_1{
-          width:297px;
-          height:117px;
-          background:#523178;
-          border:.25px solid #523178;
-          border-radius:10px;
-          margin-top:29px;
-          border-width:0
-      }
-       .img_FS_1{
-          width:29px;
-          height:29px;
-          margin-bottom:15px
-      }
-       .font_FS_1,.font_FS_2{
-          margin-bottom:0;
-          margin-left:22px
-      }
-    
-       .font_FS_1,.font_FS_2,.welcome_title{
-          font-family:Montserrat;
-          font-style:normal;
-          color:#000
-      }
-       .font_FS_2{
-          font-weight:400;
-          font-size:14px;
-          line-height:normal;
-          margin-top:8px
-      }
-       .font_FS_1{
-        /*margin-top:37px;*/
-          font-weight:700;
-          font-size:20px
-      }
-       .font_FS_1{
-          line-height:24px
-      }
-    
-       .dist_first_section_1{
-          height:280px
-      }
-    
-       .img_logo_ripley{
-          width:119px;
-          height:38px;
-          margin-top:4px;
-          margin-bottom:4px
-      }
-       .font_footer_1,.font_footer_1_1{
-          font-weight:500;
-          text-align:center;
-          margin-bottom:0;
-          font-family:Montserrat;
-          font-style:normal;
-          font-size:14px;
-          color:#fff
-      }
-    
-       .font_footer_1{
-          line-height:17px;
-          margin-top:70px;
-          width:274px
-      }
-    
-       .FB_SS_font_6_2,.FB_SS_font_6_2_1{
-          font-family:Montserrat;
-          font-style:normal;
-          font-weight:500;
-          font-size:14px;
-          line-height:17px;
-          color:#8c4799;
-          margin-bottom:0;
-          margin-left:5px;
-          display:flex;
-          text-align:center;
-          text-decoration-line:underline
-      }
-       .FB_SS_size_1_2{
-          width:11.99px;
-          height:16.02px;
-          margin-top:25px
-      }
-    
-       .FB_SS_font_6_2{
-          align-items:center;
-          margin-top:22px
-      }
-    
-       .size_map{
-          max-width:100%;
-          height:390px
-      }
-    
-       .font_txt_1,.font_txt_1_pos{
-          width:309px;
-          padding-left:12px
-      }
-    
-       .font_TD_title,.font_cat_knt_1,.font_kasnet_tit,.font_txt_1,.font_txt_2,.font_txt_4{
-          font-family:Montserrat;
-          font-style:normal
-      }
-    
-       .font_txt_2,.font_txt_4{
-          line-height:18px
-      }
-       .size_pop_hor{
-          height:55px
-      }
-       .font_txt_4{
-          font-weight:400;
-          font-size:14px;
-          color:#6a6a6a;
-          cursor:pointer;
-          text-align:left;
-          margin-bottom:12px
-      }
-       .font_txt_1,.font_txt_1_pos,.font_txt_2{
-          margin-bottom:0;
-          text-align:left;
-          cursor:pointer
-      }
-       .font_txt_2{
-          font-weight:500;
-          font-size:12px;
-          color:#5f5f5f;
-          height:54px
-      }
-       .font_txt_1_pos{
-          margin-top:25px
-      }
-       .font_txt_1{
-          font-weight:700;
-          font-size:22px;
-          line-height:27px;
-          color:#523178
-      }
-       .img_tienda{
-          height:50px;
-          width:31px;
-          opacity:.5
-      }
-       .size_pop_sec{
-          margin-top:21px!important
-      }
-       .tbl_pop_1{
-          max-width:343px;
-          height:209px;
-          cursor:pointer
-      }
-       .size_pop_ad{
-          margin-top:13px;
-          padding-right:0;
-          text-align:left
-      }
-       .font_TD_title{
-          font-weight:600;
-          font-size:14px;
-          line-height:17px;
-          text-align:center;
-          color:#939393
-      }
-     
-       .small-2{
-          width:16.666%
-      }
-    
-       .small-4{
-          width:33.333%
-      }
-    
-       .small-6{
-          width:50%
-      }
-    
-       *,:after,:before{
-          margin:0;
-          padding:0;
-          -webkit-box-sizing:border-box;
-          -moz-box-sizing:border-box;
-          box-sizing:border-box
-      }
-       .row{
-          max-width:960px;
-          margin:0 auto
-      }
-       .row:after{
-          content:"";
-          display:table;
-          clear:both
-      }
-       [class*=large],[class*=small]{
-          float:left;
-          padding:5px
-      }
-       .navbar{
-          background-color:#523178;
-          min-height:46px;
-          margin-bottom:0;
-          border-bottom-width:0;
-          width: 100%;
-      }
-       .top_container{
-          margin-top:25px
-      }
-       .dist_f_1{
-          margin-top:51px
-      }
-       .dist_f_vis_1{
-          margin-top:14px
-      }
-       .dist_f_vis_2,.dist_phone{
-          margin-top:20px
-      }
-       .font_footer_2{
-          cursor:pointer;
-          height:15px;
-          font-family:Montserrat;
-          font-style:normal;
-          font-weight:500;
-          font-size:14px;
-          line-height:17px;
-          text-align:center;
-          color:#c6b5d9;
-          margin-bottom:0
-      }
-       .font_footer_3{
-          cursor:pointer;
-          height:22px;
-          font-family:Montserrat;
-          font-style:normal;
-          font-weight:600;
-          font-size:16px;
-          line-height:20px;
-          text-align:center;
-          color:#fff;
-          margin-bottom:0
-      }
-       .dist_facebook{
-          margin-top:15px
-      }
-       .dist_youtube{
-          margin-top:20px
-      }
-      #agenciesModalBtn{
-          display: none;
-      }
-      .fontCardBenefits{
-          color: #000;
-          font-family: Montserrat;
-          font-size: 12px;
-          line-height: 15px;
-          height: 15px;
-          margin-left: 15px;
-          font-weight: 500;
-      }
-      .benefitLogo{
-          float:right;
-          align-self: center;
-      }
-      .cardBenefit{
-          padding-right: 0;
-          height: 50px;
-          display: flex;
-          align-items: center;
-      }
-      .cardSubtitle{
-          font-family: Montserrat;
-          color: #6A6A6A;
-          font-weight: 400;
-          font-size: 1.2rem;
-          margin-bottom: 0;
-      }
-      .cardTitle{
-          font-family: Montserrat;
-          color: #523178;
-          font-weight: 700;
-          font-size: 3rem;
-      }
-      .meetCard{
-          max-width: 343px;
-      }
+.SB_TS_backg{
+    padding-left:15px;
+    padding-right:15px;
+}
+.SB_TS_font_1{
+    height: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #6A6A6A;
+    margin-top: 52px;
+    margin-bottom: 0px;
+}
+.SB_TS_font_4{
+    height: 19px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #523178;
+    margin-top: 33px;
+    margin-bottom: 11px;
+}
+.SB_TS_font_3{
+    height: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #523178;
+    margin-top: 33px;
+    /*margin-left: 53px;*/
+    margin-bottom: 16px;
+    word-break: break-word;
+}
+.SB_TS_font_5{
+    height: 19px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #523178;
+    margin-top: 33px;
+    margin-bottom: 11px;
+}
+.texto{
+    width: 130px;
+    height: 19px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;	
+}
+.SB_FTS_font_row_1{
+    height: 13px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6A6A6A;
+    /*margin-top: 21px;
+    margin-left: 25px;
+    margin-bottom: 21px;*/
+}
+.SB_FTS_font_row_2{
+    max-width: 135px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #6A6A6A;
+    margin-top: 22px;
+    margin-bottom: 11px;
+}
+.SB_FTS_font_row_3{
+    height: 11px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #6A6A6A;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.SB_TS_font_6{
+    height: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #523178;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.fecha{
+    display:block;
+    max-width: 135px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #6A6A6A;
+    margin-top: 22px;
+    margin-bottom: 11px;
+}
+
+.tooltip{
+	background: none !important; max-width: 252px !important; 
+}
+.tooltip-arrow{
+	left: 50% !important;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: transparent !important; text-align:left;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: #8C4799; text-align:left;}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #8C4799;text-align:left;  }
+.tooltip.left .tooltip-arrow {
+  border-left-color: #8C4799;text-align:left;
+}
+.tooltip-inner {
+    background-color: #8C4799 !important; 
+    border-top-color: #8C4799; 
+    border-radius: 7px !important; 
+    font-family: Montserrat; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px; 
+    color: #FFFFFF !important; 
+    text-align:left !important;  
+    padding-top: 11px !important;  
+    padding-right: 14px !important; 
+    padding-bottom: 11px !important;  
+    padding-left: 19px !important;
+    /* max-width: 252px !important;  */
+    width: 237px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:364px){
+    .tbl_EC{
+        margin-top: -30px;
     }
-  @media screen and (min-width:365px)and (max-width:639px){
+    .FB_tbl_1,.font_select_1,.sec_btn_1,.sec_btn_2,.tbl_FS_1{
+        box-sizing:border-box
+    }
+    
+    .dist_SS_cs_v2{
+        margin-top:0
+    }
+    .img_tarjeta_1{
+        width:100%;
+        box-shadow:0 10px 20px rgba(41,41,41,.03)
+    }
+    
+    .font_det_pdf,.font_det_pdf2,.font_footer,.font_txt_1_1{
+        font-family:Montserrat;
+        font-style:normal
+    }
+    body{
+        background:#fff
+    }
+    .tbl_SS,.tbl_pop_2{
+        max-width:343px
+    }
+
+    .font_footer{
+        font-size:16px;
+        line-height:20px
+    }
+    .logo_pts{
+        margin-bottom:5px;
+        margin-left:13px
+    }
+
+    .font_txt_1_1,.font_txt_1_pos_1{
+        text-align:left;
+        margin-bottom:0;
+        cursor:pointer
+    }
+    .font_txt_1_pos_1{
+        width:309px;
+        padding-left:6px
+    }
+    .FB_SS_btn_1_2::before,.btn_SS_1_hec::before{
+        content:url(../../../img/i-pdf.svg);
+        padding:0 15px 0 0
+    }
+
+    .centrar2{
+        align-items:center;
+        display:flex;
+        justify-content:center
+    }
+    .dist_rf{
+        margin-top:15px
+    }
+    .dist_f_3{
+        top:-70px
+    }
+    .dist_f_2{
+        top:161px
+    }
+    .footer_size{
+        height:705px
+    }
+    .font_footer{
+        font-weight:600;
+        text-align:center;
+        color:#fff;
+        margin-bottom:0;
+        height:22px
+    }
+    .font_SS_3_3,.font_SS_3_4,.font_SS_3_5{
+        text-align:right;
+        font-family:Montserrat;
+        font-style:normal
+    }
+    .font_SS_3_4,.font_SS_3_5{
+        font-weight:400;
+        font-size:16px;
+        line-height:20px;
+        color:#523178;
+        height:20px
+    }
+
+    .font_SS_3_5{
+        width:102px;
+        margin-top:18px;
+        margin-bottom:17px
+    }
+    .font_SS_3_4{
+        margin-bottom:32px;
+        margin-top:17px;
+        width:66px
+    }
+    .font_SS_2_1_1,.font_SS_2_3,.font_SS_2_4,.font_SS_2_4_1{
+        font-weight:600;
+        font-size:12px;
+        line-height:15px;
+        color:#000;
+        font-family:Montserrat;
+        font-style:normal
+    }
+    .font_SS_2_4_1{
+        margin-top:21px;
+        margin-bottom:19px;
+        height:15px
+    }
+    .font_SS_2_4{
+        margin-top:12px;
+        margin-bottom:27px;
+        width:55px;
+        height:30px
+    }
+    .img_app_store,.img_google{
+        height:57px;
+        width:206px;
+        margin-top:20px
+    }
+    .font_SS_2_1_1{
+        width:79px;
+        height:30px;
+        margin-bottom:12px;
+        margin-top:12px
+    }
+
+    .logo_tool,.logo_tool2{
+        height:18px;
+        width:18px
+    }
+    .logo_tool2{
+        cursor:pointer;
+        margin-left:10px
+    }
+    .logo_tool{
+        margin-bottom:19px
+    }
+    .font_SS_2_3{
+        margin-top:13px;
+        margin-bottom:11px;
+        height:30px;
+        width:132px
+    }
+    .font_SS_3_3{
+        font-weight:400;
+        font-size:16px;
+        line-height:23px;
+        color:#523178;
+        margin-top:4px;
+        margin-bottom:3px;
+        height:47px;
+        width:146px
+    }
+
+    .pos_derecha{
+        float:left
+    }
+    .img_FS_sc_1{
+        background:url(https://s3.amazonaws.com/estadocuentainteligentehtmlqa/imagenes/estaticas/Cabecera-estrella-fondo.png) no-repeat, url(../../../img/starBackground.svg) no-repeat;
+        width:172px;
+        height:117px;
+        z-index:initial;
+        border:0;
+        float:right
+    }
+    .btn_SS_1_h,.btn_SS_1_hec{
+        font-weight:600;
+        line-height:22px;
+        font-size:18px;
+        text-align:center;
+        color:#fff;
+        width:100%;
+        height:62px;
+        font-family:Montserrat;
+        font-style:normal
+    }
+    .dist_L_R{
+        margin-left:17px;
+        margin-right:17px
+    }
+    .font_FS_4,.font_FS_5,.font_FS_6{
+        margin-left:20px;
+        font-family:Montserrat;
+        font-style:normal
+    }
+    .btn_SS_1_hec{
+        background:#8d4896;
+        border-radius:4px;
+        border:0;
+        display:flex;
+        flex-flow:row;
+        align-items:center;
+        justify-content:center;
+        margin-bottom: 12px;
+    }
+    .btn_SS_1_h{
+        background:#ee2737;
+        border-radius:4px;
+        border:0
+    }
+    .btn_SS_1_hec.desktop{
+    display: none;
+    }
+    .size_1{
+        width:185px;
+        padding-left:0;
+        padding-right:0
+    }
+    .size_2{
+        width:67px
+    }
+    .font_SS_3_2{
+        font-family:Montserrat;
+        font-style:normal;
+        font-weight:400;
+        font-size:16px;
+        line-height:20px;
+        color:#523178;
+        margin-top:17px;
+        margin-bottom:18px
+    }
+    .font_SS_2_2{
+        font-family:Montserrat;
+        font-style:normal;
+        font-weight:600;
+        font-size:12px;
+        line-height:15px;
+        color:#000;
+        margin-top:12px;
+        margin-bottom:13px;
+        width:80px;
+        height:30px
+    }
+    .font_SS_3_1{
+        font-family:Montserrat;
+        font-style:normal;
+        font-weight:400;
+        font-size:16px;
+        line-height:20px;
+        color:#523178;
+        margin-top:17px;
+        margin-bottom:17px;
+        height:20px
+    }
+    .font_SS_2_1{
+        font-family:Montserrat;
+        font-style:normal;
+        font-weight:600;
+        font-size:12px;
+        line-height:15px;
+        color:#000;
+        margin-top:12px;
+        margin-bottom:13px;
+        width:95px;
+        height:30px
+    }
+    .font_SS_3{
+        font-family:Montserrat;
+        font-style:normal;
+        font-weight:400;
+        font-size:16px;
+        line-height:20px;
+        color:#523178;
+        margin-top:38px;
+        margin-bottom:12px;
+        height:20px
+    }
+    .font_SS_1,.font_SS_2{
+        font-weight:600;
+        font-family:Montserrat;
+        font-style:normal
+    }
+    .font_SS_2{
+        font-size:12px;
+        line-height:15px;
+        color:#000;
+        margin-top:41px;
+        margin-bottom:14px;
+        height:15px
+    }
+    .tbl_SS{
+        height:680px;
+        background:#fff;
+        box-shadow:0 10px 20px rgba(41,41,41,.03);
+        border-radius:8px;
+        margin-top:20px
+    }
+    .font_SS_1{
+        font-size:14px;
+        line-height:17px;
+        color:#939393;
+        margin-top:22px;
+        margin-bottom:0
+    }
+    .img_FS_2{
+        width:92px;
+        height:29px;
+        margin-top:17px;
+        margin-right:16px;
+        position:absolute;
+        right:0;
+        z-index:1
+    }
+    .font_FS_6{
+        font-weight:500;
+        font-size:12px;
+        line-height:15px;
+        color:#fff;
+        border-bottom:5px
+    }
+    .font_FS_4,.font_FS_5{
+        line-height:normal;
+        margin-bottom:0
+    }
+    .font_FS_5{
+        font-weight:700;
+        font-size:42px;
+        color:#fff;
+        height:42px
+    }
+    .font_FS_4{
+        font-weight:600;
+        font-size:14px;
+        color:#f8c21c;
+        margin-top:20px
+    }
+    .navbar-fixed-top{
+        position: relative;
+    }
+    .tbl_FS_1{
+        width:297px;
+        height:117px;
+        background:#523178;
+        border:.25px solid #523178;
+        border-radius:10px;
+        margin-top:29px;
+        border-width:0
+    }
+    .img_FS_1{
+        width:29px;
+        height:29px;
+        margin-bottom:15px
+    }
+    .font_FS_1,.font_FS_2{
+        margin-bottom:0;
+        margin-left:22px
+    }
+
+    .font_FS_1,.font_FS_2,.welcome_title{
+        font-family:Montserrat;
+        font-style:normal;
+        color:#000
+    }
+    .font_FS_2{
+        font-weight:400;
+        font-size:14px;
+        line-height:normal;
+        margin-top:8px
+    }
+    .font_FS_1{
+    /*margin-top:37px;*/
+        font-weight:700;
+        font-size:20px
+    }
+    .font_FS_1{
+        line-height:24px
+    }
+
+    .dist_first_section_1{
+        height:280px
+    }
+
+    .img_logo_ripley{
+        width:119px;
+        height:38px;
+        margin-top:4px;
+        margin-bottom:4px
+    }
+    .font_footer_1,.font_footer_1_1{
+        font-weight:500;
+        text-align:center;
+        margin-bottom:0;
+        font-family:Montserrat;
+        font-style:normal;
+        font-size:14px;
+        color:#fff
+    }
+
+    .font_footer_1{
+        line-height:17px;
+        margin-top:70px;
+        width:274px
+    }
+
+    .FB_SS_font_6_2,.FB_SS_font_6_2_1{
+        font-family:Montserrat;
+        font-style:normal;
+        font-weight:500;
+        font-size:14px;
+        line-height:17px;
+        color:#8c4799;
+        margin-bottom:0;
+        margin-left:5px;
+        display:flex;
+        text-align:center;
+        text-decoration-line:underline
+    }
+    .FB_SS_size_1_2{
+        width:11.99px;
+        height:16.02px;
+        margin-top:25px
+    }
+
+    .FB_SS_font_6_2{
+        align-items:center;
+        margin-top:22px
+    }
+
+    .size_map{
+        max-width:100%;
+        height:390px
+    }
+
+    .font_txt_1,.font_txt_1_pos{
+        width:309px;
+        padding-left:12px
+    }
+
+    .font_TD_title,.font_cat_knt_1,.font_kasnet_tit,.font_txt_1,.font_txt_2,.font_txt_4{
+        font-family:Montserrat;
+        font-style:normal
+    }
+
+    .font_txt_2,.font_txt_4{
+        line-height:18px
+    }
+    .size_pop_hor{
+        height:55px
+    }
+    .font_txt_4{
+        font-weight:400;
+        font-size:14px;
+        color:#6a6a6a;
+        cursor:pointer;
+        text-align:left;
+        margin-bottom:12px
+    }
+    .font_txt_1,.font_txt_1_pos,.font_txt_2{
+        margin-bottom:0;
+        text-align:left;
+        cursor:pointer
+    }
+    .font_txt_2{
+        font-weight:500;
+        font-size:12px;
+        color:#5f5f5f;
+        height:54px
+    }
+    .font_txt_1_pos{
+        margin-top:25px
+    }
+    .font_txt_1{
+        font-weight:700;
+        font-size:22px;
+        line-height:27px;
+        color:#523178
+    }
+    .img_tienda{
+        height:50px;
+        width:31px;
+        opacity:.5
+    }
+    .size_pop_sec{
+        margin-top:21px!important
+    }
+    .tbl_pop_1{
+        max-width:343px;
+        height:209px;
+        cursor:pointer
+    }
+    .size_pop_ad{
+        margin-top:13px;
+        padding-right:0;
+        text-align:left
+    }
+    .font_TD_title{
+        font-weight:600;
+        font-size:14px;
+        line-height:17px;
+        text-align:center;
+        color:#939393
+    }
+    
+    .small-2{
+        width:16.666%
+    }
+
+    .small-4{
+        width:33.333%
+    }
+
+    .small-6{
+        width:50%
+    }
+
+    *,:after,:before{
+        margin:0;
+        padding:0;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box
+    }
+    .row{
+        max-width:960px;
+        margin:0 auto
+    }
+    .row:after{
+        content:"";
+        display:table;
+        clear:both
+    }
+    [class*=large],[class*=small]{
+        float:left;
+        padding:5px
+    }
+    .navbar{
+        background-color:#523178;
+        min-height:46px;
+        margin-bottom:0;
+        border-bottom-width:0;
+        width: 100%;
+    }
+    .top_container{
+        margin-top:25px
+    }
+    .dist_f_1{
+        margin-top:51px
+    }
+    .dist_f_vis_1{
+        margin-top:14px
+    }
+    .dist_f_vis_2,.dist_phone{
+        margin-top:20px
+    }
+    .font_footer_2{
+        cursor:pointer;
+        height:15px;
+        font-family:Montserrat;
+        font-style:normal;
+        font-weight:500;
+        font-size:14px;
+        line-height:17px;
+        text-align:center;
+        color:#c6b5d9;
+        margin-bottom:0
+    }
+    .font_footer_3{
+        cursor:pointer;
+        height:22px;
+        font-family:Montserrat;
+        font-style:normal;
+        font-weight:600;
+        font-size:16px;
+        line-height:20px;
+        text-align:center;
+        color:#fff;
+        margin-bottom:0
+    }
+    .dist_facebook{
+        margin-top:15px
+    }
+    .dist_youtube{
+        margin-top:20px
+    }
+    /*
+    #agenciesModalBtn{
+        display: none;
+    }
+    */
+    .fontCardBenefits{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 12px;
+        line-height: 15px;
+        height: 15px;
+        margin-left: 15px;
+        font-weight: 500;
+    }
+    .benefitLogo{
+        float:right;
+        align-self: center;
+    }
+    .cardBenefit{
+        padding-right: 0;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .cardSubtitle{
+        font-family: Montserrat;
+        color: #6A6A6A;
+        font-weight: 400;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+    .cardTitle{
+        font-family: Montserrat;
+        color: #523178;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+    .meetCard{
+        max-width: 343px;
+    }
+    #pts_disp{
+        margin-left: 22px;
+    }
+}
+@media screen and (max-width:768px){
+    .containerRPGO{
+        background-color: #523178;
+        /*height: 2200px;*/
+    }
+    .rpgoColumn2, .bottomTipDesktop{
+        display:none;
+    }
+    .SB_SS_size_2{
+        max-width: 343px;
+        margin:auto;
+    }
+    .rpgoLogoContainer{
+        padding-top:40px;
+        padding-bottom:25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .TB_SS_font_1{
+        color: #FFFFFF;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-size:2rem;
+    }
+    .TB_SS_font_2{
+        color: #FFFFFF;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-size:1.8rem;
+    }
+    .TB_SS_font_6{
+        color: #F9BA46;
+        font-size: 5rem;
+        font-weight: 700;
+        font-family: Montserrat;
+        word-break: break-all;
+    }
+    .TB_SS_font_7{
+        color: #F9BA46;
+        font-weight: normal;
+        font-family: Montserrat;
+        margin-bottom:20px;
+        font-size:2rem;
+    }
+    .TB_SS_font_9{
+        color: #FFFFFF;
+        font-weight: 400;
+        font-family: Montserrat;
+        margin-bottom:30px;
+    }
+    .TB_SS_font_11{
+        color: #FFFFFF;
+        font-weight: 400;
+        font-family: Montserrat;
+        font-size: 1.7rem;
+        display: inline;
+    }
+    .TB_SS_font_12{
+        color: #F9BA46;
+        font-weight: 400;
+        font-family: Montserrat;
+        font-size: 1.7rem;
+    }
+    .TB_SS_font_12 b{
+        color: #F9BA46;
+        font-weight: 400;
+        font-family: Montserrat;
+        font-size: 2rem;
+    }
+    .TB_SS_font_13{
+        color: #FFFFFF;
+        font-weight: 300;
+        font-family: Montserrat;
+        font-size: 1.4rem;
+        display: inline;
+        padding-left: 10px;
+    }
+    .TB_FS_tbl_font_1{
+        color: #C6B5D9;
+        font-weight: normal;
+        font-family: Montserrat;
+        word-break: break-all;
+        font-size: 14px;
+    }
+    hr.pointDivider{
+        border-top: 1px solid #E1E1E1;
+        padding:0;
+        margin: 3px 0;
+    }
+    #afterPoints{
+        margin-top: 25px;
+    }
+    .rpgoCard{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .rpgobenefitsTable{
+        background-color: white;
+        margin-top: 20px;
+        border-radius: 6px;
+        padding: 4px 0;
+    }
+    .benefitRow{
+        display:flex;
+        align-items: center;
+    }
+    .starIcon{
+        display: flex;
+        justify-content: center;
+    }
+    .rpgotableFont1{
+        word-break: break-word;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 15px 0;
+        color: black;
+        font-family: Montserrat;
+    }
+    .rpgotableFont2{
+        word-break: break-word;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 15px 0;
+        color:#6A6A6A;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont3{
+        word-break: break-word;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 15px 0;
+        color: #E0AC0B;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont4{
+        word-break: break-word;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 15px 0;
+        color: #6A6A6A;
+        font-family: Montserrat;
+    }
+    .rpgotableFont5{
+        word-break: break-word;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 15px 0;
+        color: #523178;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont6{
+        word-break: break-word;
+        font-size: 12px;        
+        font-weight: 400;
+        padding: 15px 0;
+        color: #523178;
+        font-weight: 300;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont7{
+        word-break: break-word;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 15px 0;
+        color: #523178;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont8{
+        word-break: break-word;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0;
+        color: #523178;
+        font-family: Montserrat;
+        text-align: center;
+        margin: 0;
+    }
+    .rpgotableFont9{
+        word-break: break-word;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        color: #523178;
+        font-family: Montserrat;
+        text-align: center;
+        margin: 0;
+    }
+    .multiplierIcon{
+        padding-left: 10px;
+    }
+    .bottomTip{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:991px){
+    .containerRPGO{
+        background-color: #523178;
+        height: 2200px;
+    }
+    .footer{
+        width: 1022px;
+    }
+    .rpgoColumn2, .bottomTipDesktop{
+        display:none;
+    }
+    hr.col-md-12.col-sm-12.benefitDivider{
+        padding:0;
+    }
+    .SB_SS_size_2{
+        max-width: 343px;
+        margin:auto;
+    }
+    .rpgoLogoContainer{
+        padding-top:40px;
+        padding-bottom:25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .TB_SS_font_1{
+        color: #FFFFFF;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-size:2rem;
+    }
+    .TB_SS_font_2{
+        color: #FFFFFF;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-size:1.8rem;
+    }
+    .TB_SS_font_6{
+        color: #F9BA46;
+        font-size: 5rem;
+        font-weight: 700;
+        font-family: Montserrat;
+        word-break: break-all;
+    }
+    .TB_SS_font_7{
+        color: #F9BA46;
+        font-weight: normal;
+        font-family: Montserrat;
+        margin-bottom:20px;
+        font-size:2rem;
+    }
+    .TB_SS_font_9{
+        color: #FFFFFF;
+        font-weight: 400;
+        font-family: Montserrat;
+        margin-bottom:30px;
+    }
+    .TB_SS_font_11{
+        color: #FFFFFF;
+        font-weight: 400;
+        font-family: Montserrat;
+        font-size: 1.7rem;
+        display: inline;
+    }
+    .TB_SS_font_12{
+        color: #F9BA46;
+        font-weight: 400;
+        font-family: Montserrat;
+        font-size: 1.7rem;
+    }
+    .TB_SS_font_12 b{
+        color: #F9BA46;
+        font-weight: 400;
+        font-family: Montserrat;
+        font-size: 2rem;
+    }
+    .TB_SS_font_13{
+        color: #FFFFFF;
+        font-weight: 300;
+        font-family: Montserrat;
+        font-size: 1.4rem;
+        display: inline;
+        padding-left: 10px;
+    }
+    .TB_FS_tbl_font_1{
+        color: #C6B5D9;
+        font-weight: normal;
+        font-family: Montserrat;
+        word-break: break-all;
+        font-size: 14px;
+    }
+    
+    hr.pointDivider{
+        border-top: 1px solid #E1E1E1;
+        padding:0;
+        margin: 3px 0;
+    }
+    #afterPoints{
+        margin-top: 25px;
+    }
+    .rpgoCard{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .rpgobenefitsTable{
+        background-color: white;
+        margin-top: 20px;
+        border-radius: 6px;
+        padding: 4px 0;
+    }
+    .benefitRow{
+        display:flex;
+        align-items: center;
+    }
+    .starIcon{
+        display: flex;
+        justify-content: center;
+    }
+    .rpgotableFont1{
+        word-break: break-word;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 15px 0;
+        color: black;
+        font-family: Montserrat;
+    }
+    .rpgotableFont2{
+        word-break: break-word;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 15px 0;
+        color:#6A6A6A;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont3{
+        word-break: break-word;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 15px 0;
+        color: #E0AC0B;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont4{
+        word-break: break-word;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 15px 0;
+        color: #6A6A6A;
+        font-family: Montserrat;
+    }
+    .rpgotableFont5{
+        word-break: break-word;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 15px 0;
+        color: #523178;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont6{
+        word-break: break-word;
+        font-size: 12px;        
+        font-weight: 400;
+        padding: 15px 0;
+        color: #523178;
+        font-weight: 300;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont7{
+        word-break: break-word;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 15px 0;
+        color: #523178;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont8{
+        word-break: break-word;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0;
+        color: #523178;
+        font-family: Montserrat;
+        text-align: center;
+        margin: 0;
+    }
+    .rpgotableFont9{
+        word-break: break-word;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        color: #523178;
+        font-family: Montserrat;
+        text-align: center;
+        margin: 0;
+    }
+    .multiplierIcon{
+        padding-left: 10px;
+    }
+    .bottomTip{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width:365px)and (max-width:639px){
+    .tbl_EC{
+        margin-top: -80px;
+    }
     .FB_tbl_1,.font_select_1,.sec_btn_1,.sec_btn_2,.tbl_FS_1{
         box-sizing:border-box
     }
@@ -799,7 +1380,7 @@
         padding-left:6px
     }
      .FB_SS_btn_1_2::before,.btn_SS_1_hec::before{
-        content:url(../../../../img/i-pdf.svg);
+        content:url(../../../img/i-pdf.svg);
         padding:0 15px 0 0
     }
   
@@ -913,7 +1494,7 @@
         float:left
     }
      .img_FS_sc_1{
-        background:url(https://s3.amazonaws.com/estadocuentainteligentehtmlqa/imagenes/estaticas/Cabecera-estrella-fondo.png) no-repeat, url(../../../../img/starBackground.svg) no-repeat;
+        background:url(https://s3.amazonaws.com/estadocuentainteligentehtmlqa/imagenes/estaticas/Cabecera-estrella-fondo.png) no-repeat, url(../../../img/starBackground.svg) no-repeat;
         width:172px;
         height:117px;
         z-index:initial;
@@ -1036,7 +1617,7 @@
         height:15px
     }
      .tbl_SS{
-        height:580px;
+        height:610px;
         background:#fff;
         box-shadow:0 10px 20px rgba(41,41,41,.03);
         border-radius:8px;
@@ -1329,9 +1910,11 @@
      .dist_youtube{
         margin-top:20px
     }
+    /*
     #agenciesModalBtn{
         display: none;
     }
+    */
     .fontCardBenefits{
       color: #000;
       font-family: Montserrat;
@@ -1373,8 +1956,8 @@
       }
   
   
-  }
-  @media screen and (min-width:640px)and (max-width:768px){
+}
+@media screen and (min-width:640px)and (max-width:768px){
     .centrar2,.font_subtit_ag_ksnt{
         align-items:center;
         display:flex
@@ -1383,7 +1966,7 @@
         padding-left:0
     }
      .FB_SS_btn_1_2::before,.btn_SS_1_hec::before{
-        content:url(../../../../img/i-pdf.svg);
+        content:url(../../../img/i-pdf.svg);
         padding:0 15px 0 0;
     }
      .FB_SS_font_6_2{
@@ -1549,7 +2132,7 @@
         float:left
     }
      .img_FS_sc_1{
-        background:url(https://s3.amazonaws.com/estadocuentainteligentehtmlqa/imagenes/estaticas/Cabecera-estrella-fondo.png) no-repeat, url(../../../../img/starBackground.svg) no-repeat;
+        background:url(https://s3.amazonaws.com/estadocuentainteligentehtmlqa/imagenes/estaticas/Cabecera-estrella-fondo.png) no-repeat, url(../../../img/starBackground.svg) no-repeat;
         width:172px;
         height:117px;
         z-index:initial;
@@ -1672,7 +2255,7 @@
         height:15px
     }
      .tbl_SS{
-        height:580px;
+        height:610px;
         background:#fff;
         box-shadow:0 10px 20px rgba(41,41,41,.03);
         border-radius:8px;
@@ -1746,7 +2329,7 @@
         font-weight:400;
         font-size:14px;
         line-height:normal;
-        margin-top:8px
+        margin-top:8px;
     }
      .font_FS_1,.welcome_title{
         margin-top:37px;
@@ -1754,7 +2337,7 @@
         font-size:20px
     }
      .font_FS_1{
-        line-height:24px
+        line-height:24px;
     }
   
      .dist_first_section_1{
@@ -1955,9 +2538,11 @@
         background-color:#523178;
         margin-bottom:0
     }
+    /*
       #agenciesModalBtn{
           display: none;
       }
+      */
       .fontCardBenefits{
           color: #000;
           font-family: Montserrat;
@@ -1997,8 +2582,25 @@
           margin-top: 30px;
           max-width: 343px;
       }
-  }
-  @media screen and (min-width:768px){
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .containerRPGO{
+        background-color: #523178;
+        /*height: 2200px;*/
+    }
+    .SB_SS_size_2{
+        max-width: 343px;
+        margin:auto;
+    }
+    .rpgoLogoContainer{
+        padding-top:40px;
+        padding-bottom:25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width:768px){
      .FB_tbl_1,.FB_tbl_1_1,.FB_tbl_2_2,.FB_tbl_3,.font_select_1,.sec_btn_1,.sec_btn_2,.tbl_FS_1{
         box-sizing:border-box
     }
@@ -2102,7 +2704,7 @@
         height:117px
     }
      .img_FS_sc_1{
-        background:url(https://s3.amazonaws.com/estadocuentainteligentehtmlqa/imagenes/estaticas/Cabecera-estrella-fondo.png) no-repeat, url(../../../../img/starBackground.svg) no-repeat;
+        background:url(https://s3.amazonaws.com/estadocuentainteligentehtmlqa/imagenes/estaticas/Cabecera-estrella-fondo.png) no-repeat, url(../../../img/starBackground.svg) no-repeat;
         z-index:initial;
         border:0;
         float:right
@@ -2121,7 +2723,7 @@
         padding-left:6px
     }
      .FB_SS_btn_1_2::before,.btn_SS_1_hec::before{
-        content:url(../../../../img/i-pdf.svg);
+        content:url(../../../img/i-pdf.svg);
         padding:0 15px 0 0
     }
      .font_txt_3,.font_txt_4{
@@ -2372,6 +2974,7 @@
         border:.25px solid #523178;
         border-radius:10px;
         margin-top:36px;
+        margin-bottom:36px;
         border-width:0
     }
      .img_FS_1{
@@ -2389,7 +2992,8 @@
         font-weight:400;
         font-size:18px;
         margin-top:18px;
-        margin-bottom:0
+        margin-bottom:0;
+        margin-left: 20px;
     }
      .font_FS_1,.welcome_title{
         font-weight:700;
@@ -2397,7 +3001,8 @@
     }
      .font_FS_1{
         margin-top:63px;
-        margin-bottom:0
+        margin-bottom:0;
+        margin-left: 20px;
     }
      .navbar{
         height:58px!important;
@@ -2636,9 +3241,293 @@
       .finalVar{
           margin-bottom:30px;
       }
-  }
-  @media (min-width:1200px){
+}
+@media screen and (min-width:992px){
+    .containerRPGO{
+        background-color: #523178;
+        height: 780px;
+    }
+    .TB_SS_dist_1{
+        width: 100%;
+    }
+    .rpgoColumn{
+        padding-left:100px;
+        width: 50%;
+    }
+    .rpgoColumn2{
+        width:50%;
+        min-height: 1px;
+        display: inline;
+        padding-right:100px;
+
+    }
+    .benefitsTable{
+        background-color: #4D2C6C;
+        margin-top:30px;
+        margin-bottom:30px;
+        height:320px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        border-radius: 8px;
+    }
+    .rpgoTableHeader{
+        color: #F9BA46;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .tableFont1{
+        font-family: Montserrat;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .tableFont2{
+        font-family: Montserrat;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .tableFont3{
+        font-family: Montserrat;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        display: flex;
+    }
+    .tableFont4{
+        font-family: Montserrat;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .tableFont5{
+        font-family: Montserrat;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .messageFont1{
+        font-family: Montserrat;
+        color: #F9BA46;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .messageFont2{
+        font-family: Montserrat;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .messageFont1 b{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .SB_SS_size_2{
+        /*max-width: 343px;*/
+        margin:auto;
+    }
+    .rpgoLogoContainer{
+        padding-top:40px;
+        padding-bottom:25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .TB_SS_font_1{
+        color: #FFFFFF;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-size:2rem;
+    }
+    .TB_SS_font_2{
+        color: #FFFFFF;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-size:1.8rem;
+    }
+    .TB_SS_font_6{
+        color: #F9BA46;
+        font-size: 52px;
+        font-weight: 700;
+        font-family: Montserrat;
+        word-break: break-all;
+    }
+    .TB_SS_font_7{
+        color: #F9BA46;
+        font-weight: normal;
+        font-family: Montserrat;
+        margin-bottom:20px;
+        font-size:16px;
+    }
+    .TB_SS_font_9{
+        color: #FFFFFF;
+        font-weight: 400;
+        font-family: Montserrat;
+        margin-bottom:14px;
+    }
+    .TB_SS_font_11{
+        color: #FFFFFF;
+        font-weight: 400;
+        font-family: Montserrat;
+        font-size: 1.7rem;
+        display: inline;
+    }
+    .TB_SS_font_12{
+        color: #F9BA46;
+        font-weight: 400;
+        font-family: Montserrat;
+        font-size: 1.7rem;
+    }
+    .TB_SS_font_12 b{
+        color: #F9BA46;
+        font-weight: 400;
+        font-family: Montserrat;
+        font-size: 2rem;
+    }
+    .TB_SS_font_13{
+        color: #FFFFFF;
+        font-weight: 300;
+        font-family: Montserrat;
+        font-size: 1.4rem;
+        display: inline;
+        padding-left: 10px;
+    }
+    .TB_FS_tbl_font_1{
+        color: #C6B5D9;
+        font-weight: normal;
+        font-family: Montserrat;
+        word-break: break-all;
+    }
+    .pointsTable{
+        width:50%;
+    }
+    hr.pointDivider{
+        border-top: 1px solid #E1E1E1;
+        padding:0;
+        margin: 3px 0;
+    }
+    #afterPoints{
+        display: none;
+    }
+    .rpgoCard{
+        display: none;
+    }
+    .rpgobenefitsTable{
+        display: none;
+    }
+    .benefitRow{
+        display:flex;
+        align-items: center;
+    }
+    .starIcon{
+        display: flex;
+        justify-content: center;
+    }
+    .rpgotableFont1{
+        word-break: break-word;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 15px 0;
+        color: black;
+        font-family: Montserrat;
+    }
+    .rpgotableFont2{
+        word-break: break-word;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 15px 0;
+        color:#6A6A6A;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont3{
+        word-break: break-word;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 15px 0;
+        color: #E0AC0B;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont4{
+        word-break: break-word;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 15px 0;
+        color: #6A6A6A;
+        font-family: Montserrat;
+    }
+    .rpgotableFont5{
+        word-break: break-word;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 15px 0;
+        color: #523178;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont6{
+        word-break: break-word;
+        font-size: 12px;        
+        font-weight: 400;
+        padding: 15px 0;
+        color: #523178;
+        font-weight: 300;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont7{
+        word-break: break-word;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 15px 0;
+        color: #523178;
+        font-family: Montserrat;
+        text-align: center;
+    }
+    .rpgotableFont8{
+        word-break: break-word;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0;
+        color: #523178;
+        font-family: Montserrat;
+        text-align: center;
+        margin: 0;
+    }
+    .rpgotableFont9{
+        word-break: break-word;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        color: #523178;
+        font-family: Montserrat;
+        text-align: center;
+        margin: 0;
+    }
+    .multiplierIcon{
+        padding-left: 10px;
+    }
+    .bottomTip, .mobileMessage{
+        display:none;
+    }
+    .bottomTipDesktop{
+        margin-top:50px;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (min-width:1200px){
     .container{
         width:1081px!important
     }
-  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.tbl_SS{
+		height: 740px;
+	}
+}
