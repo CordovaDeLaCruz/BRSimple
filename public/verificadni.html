@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BR Simple</title>
+
+    <!-- <meta charset="UTF-8"/> <base href="/">-->
+    <meta http-equiv="Content-Type" content="text/html" ; charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="favicon.ico?v=1.0" type="image/x-icon" />
+    <!-- <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">media="screen" -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/estilos.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/estilos_login.css" />
+    <script type="text/javascript" src="assets/js/gtm.js"></script>
+    <script type="text/javascript" src="assets/js/gao.js"></script>
+    <script type="text/javascript" src="assets/js/hotjar.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=##RECAPTCHA_SITEKEY##"></script>
+    <link rel="stylesheet" href="vendor/bootstrap.min.css" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/custom01.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/custom02.css" />
+</head>
+
+<body id="body0" onload="fun_ga()">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N423H33"
+      height="0" width="0" class="iframe_ocultar" ></iframe></noscript>
+    <input type="hidden" id="env" value="{{env}}"/>
+    <div id="manager_navegacion">
+        <div id="nav_login" class="ocultar">
+            <div class="portada">
+                <div id="panel_display_login" class="col-md-12 col-xs-12 centrar3 ocultar" >
+                    <div class="centrar2">
+                      <div class="tbl_cuadro">
+                            <div class="col-md-12 col-xs-12 centrar">
+                              <img class="logo" src="https://pe-soapros-capacniam-bucket-recursos-{{env}}.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/logo-br.png" alt="Banco Ripley">
+                             </div>
+                            <div id="id_tip_doc" class="col-md-12 col-xs-12 dist_opc_1">
+                                <div id="id_DNI" class="col-md-offset-1 col-md-5 col-xs-5 centrar brd_opc_1 selecc">
+                                    <label id="id_lbl_DNI" class="font_opc_1">DNI</label>
+                                </div>
+                                <div id="id_CE" class="col-md-5 col-xs-6 w_p_r w_p_l selecc">
+                                    <label id="id_lbl_CE" class="font_opc_2">Carn&#233; de extranjer&#237;a</label>
+                                </div>
+                            </div>
+                          <div class="col-md-12 col-xs-12 dist_opc_2">
+                              <div class="login-box" id="div3">
+                                  <form id="form" class="login-container" method="post" action="eci">
+                                      <div class="form-group">
+                                          <div id="div5">
+                                              <input type="text" name="dni" id="dni" inputmode="numeric" minlength="8" maxlength="8" class="inputform-control login-input" onCopy="return false" onDrag="return false" onDrop="return false" onPaste="return false" autocomplete=off placeholder="Número de documento" />
+                                              <input type="hidden" id="hash" name="hash" value="" />
+                                              <input type="hidden" id="token" name="token" value="" />
+                                              <input type="hidden" id="version" name="version" value="" />
+                                          </div>
+                                          <div class="centrar2">
+                                            <label id="lbl_msj_error" class="ocultar">
+                                              <label class="font_error_1" id="label6">N&#250;mero de documento inv&#225;lido.</label>
+                                              <label class="font_error_1" id="display_msg_error">Recuerda que tienes 0 intentos.</label>
+                                            </label>
+                                          </div>
+                                          <div class="centrar2">
+                                              <button type="button" class="btn_SS_1 centrar2" id="efectuar_login" onclick="dataLayer.push({'event': 'virtualEvent','category': 'Estado de cuenta Simple - Login','action': 'Seleccionar botón ','label': 'Ingresar'});" disabled="true">Ingresar</button>
+                                          </div>
+                                          <!--<div class="centrar2 ocultar" id="errorRecaptcha">
+                                              <label class="font_captcha">Marcar el recuadro para continuar</label>
+                                          </div>
+                                          <div class="divReCaptcha centrar2 size_captcha">
+                                              <div class="g-recaptcha" id="recaptcha">
+                                              </div>
+                                              <button class="btn btnConsultarPrime" id="enviarCaptcha" type="button">Consultar</button>
+                                            </div>-->
+                                          <div class="centrar2">
+                                              <img class="img_candado" src="https://pe-soapros-capacniam-bucket-recursos-{{env}}.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/candado.png" alt="Banco Ripley">&nbsp;
+                                              <label class="font_sec_inicio"> Sitio web seguro de&nbsp;
+                                                <a href="https://www.bancoripley.com.pe" id="link7" target="_blank">
+                                                  bancoripley.com.pe</a></label>
+                                          </div>
+
+                                          <div class="col-md-12 col-xs-12 capt_ge ocultar">
+                                              <table width="290" height="70">
+                                                  <tr>
+                                                      <td>
+
+                                                          <div id="content" class="cont_capt">
+
+                                                          </div>
+                                                          <div class="div_capt">
+                                                              <p class="p_capt">Ingrese el texto de la imagen</p>
+                                                              <a id="recargar_captcha" href="#">
+                                                                  <img src="./assets/img/reinicio.png" alt="" class="img_reinicio">
+                                                              </a>
+
+                                                              <input class="inp_capt" type="text" id="texto">
+                                                          </div>
+                                                      </td>
+                                                  </tr>
+                                              </table>
+                                          </div>
+                                      </div>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div id="panel_display_error" class="col-md-12 col-xs-12 centrar2 ocultar">
+                    <div class="tbl_cuadro2">
+                        <div class="col-md-12 col-xs-12 centrar">
+                            <img class="logo" src="https://pe-soapros-capacniam-bucket-recursos-{{env}}.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/logo-br.png" alt="Banco Ripley">
+                        </div>
+                        <div class="col-md-12 col-xs-12 centrar">
+                            <img class="img_reloj" src="https://pe-soapros-capacniam-bucket-recursos-{{env}}.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/Reloj.png" alt="Banco Ripley">
+                        </div>
+                        <div class="col-md-12 col-xs-12 centrar2">
+                            <label class="font_txt_error">¡Ups! se agotó el límite <br/>de intentos permitidos.</label>
+                        </div>
+                        <div class="col-md-12 col-xs-12 centrar2">
+                            <label class="font_txt_error2">
+                              <label>Inténtalo ingresando nuevamente <b> desde tu correo.</b>
+                              </label>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="nav_error" class="ocultar">
+            <div class="portada">
+               <div class="loginpage">
+                <div class="col-md-12 col-xs-12 centrar2">
+                    <div class="tbl_cuadro_err">
+                        <div class="col-md-12 col-xs-12 centrar">
+                            <img class="logo" src="https://pe-soapros-capacniam-bucket-recursos-{{env}}.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/logo-br.png" alt="Banco Ripley">
+                        </div>
+                        <div class="col-md-12 col-xs-12 centrar2">
+                            <label class="font_txt_errr">Lo sentimos, ha ocurrido un problema técnico</label>
+                        </div>
+                        <div class="col-md-12 col-xs-12">
+                            <img class="img_barra"src="assets/img/barra.svg" alt="Banco Ripley">
+                        </div>
+                        <div class="col-md-12 col-xs-12 centrar2">
+                            <label>
+                                <label class="font_txt_errr2">Por favor, inténtalo ingresando nuevamente&nbsp;<b>desde tu correo</b>
+                                </label>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="container">
+                    <div class="logo">
+                        <img src="https://pe-soapros-capacniam-bucket-recursos-{{env}}.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/logo-br.png" alt="Banco Ripley">
+                    </div>
+                </div>
+                <div class="tbl_box">
+                    <div class="login-desc margin_top_30x">
+                        <span>
+                    <p class="font_SS_C_2" id="display_error">{{ mensaje }}</p>
+                  </span>
+                    </div>
+                </div> -->
+               </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src='vendor/jquery.3.4.1.min.js'></script>
+    <script type="text/javascript" src='vendor/boostrap.4.3.1.min.js'></script>
+    <script type="text/javascript" src="assets/js/eci.js"></script>
+</body>
+
+</html>

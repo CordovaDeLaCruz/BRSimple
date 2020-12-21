@@ -1,0 +1,115 @@
+#errorRecaptcha{
+  margin-top:20px;
+}
+#recaptcha.borde_error{
+  border:1px red solid;
+  border-radius:3px;
+}
+.capt_ge {
+    border: solid 0px;
+    width: 290px;
+    height: 70px;
+    margin-left: 0px;
+    background: #ffffff;
+    border-radius: 10px;
+    text-align: -webkit-left;
+    margin-bottom: 10px;
+}
+
+.cont_capt {
+    border-collapse: collapse;
+    border: solid 1px;
+    margin: 0 0px;
+    width: 140px;
+    height: 60px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.div_capt {
+    display: inline-block;
+    width: 125px;
+    height: 60px;
+    vertical-align: top;
+}
+
+.p_capt {
+    width: 117px;
+    position: absolute;
+    font-size: 10px;
+    color: #000000;
+    margin: 10px 0 0 39px;
+}
+
+
+/* .img_reinicio {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: super;
+    margin-left: -105px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+} */
+
+.img_reinicio {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: super;
+    margin-left: 0px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+
+/* .inp_capt {
+    width: 116px;
+    height: 30px;
+    display: inline-block;
+    margin: 21px 0px 0px 20px;
+    position: absolute;
+} */
+
+.inp_capt {
+    width: 116px;
+    height: 30px;
+    display: inline-block;
+    margin: 21px 0px 0px 15px;
+    position: absolute;
+}
+
+@media screen and (min-width: 350px) and (max-width: 480px) {
+    .cont_capt {
+        border-collapse: collapse;
+        border: solid 1px;
+        margin: 0 -2px;
+        width: 115px;
+        height: 60px;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .p_capt {
+        width: 189px;
+        position: absolute;
+        font-size: 10px;
+        color: #000000;
+        margin: 10px 0 0 -16px;
+    }
+    .img_reinicio {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        vertical-align: super;
+        margin-left: -105px;
+        margin-top: 2px;
+        margin-bottom: 4px;
+    }
+    .inp_capt {
+        width: 116px;
+        height: 30px;
+        display: inline-block;
+        margin: 21px 0px 0px 0px;
+        position: absolute;
+    }
+}

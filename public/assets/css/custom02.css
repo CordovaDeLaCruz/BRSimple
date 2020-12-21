@@ -1,0 +1,42 @@
+.iframe_ocultar{
+  display:none;
+  visibility:hidden;
+}
+.ocultar{
+  display:none;
+}
+.margin_top_30x{
+  margin-top: 30%;
+}
+#body0{
+  margin: 0;
+}
+#div1{
+  margin-top: -20px;
+}
+@media screen and (max-width: 480px) {
+  #div2{
+    margin-top: 44.21px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #div2{
+    margin-top: 27.22px;
+  }
+}
+#div3{
+  margin-top: -10px;
+}
+#div4{
+  text-align: left;
+}
+#div5{
+  margin-top: 3px;
+}
+#label6{
+  margin-top: 13px;
+}
+#link7{
+  color: #523178;
+  text-decoration: none;
+}

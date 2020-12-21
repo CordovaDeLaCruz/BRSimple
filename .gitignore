@@ -1,0 +1,9 @@
+node_modules/
+packaged.brsimple.resources.test.yml
+packaged.brsimple.resources.dev.yml
+packaged.brsimple.resources.qa.yml
+packaged.brsimple.resources.prd.yml
+packaged.brsimple.app.test.yml
+packaged.brsimple.app.dev.yml
+packaged.brsimple.app.qa.yml
+packaged.brsimple.app.prd.yml
