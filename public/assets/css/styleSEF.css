@@ -2037,7 +2037,7 @@
         padding-left:6px
     }
      .FB_SS_btn_1_2::before,.btn_SS_1_hec::before{
-        content:url(../../../img/i-pdf.svg);
+        content:url(assets/img/i-pdf.svg);
         padding:0 15px 0 0
     }
      .font_txt_3,.font_txt_4{
