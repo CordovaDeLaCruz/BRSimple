@@ -4178,6 +4178,16 @@
         $("#" + markers[indice][0] + "_name").removeClass("font_txt_1").addClass("font_txt_1_mod");
         $("#" + markers[indice][0] + "_img").removeClass("img_tienda").addClass("img_tienda_mod");
     }
+    $("#id_btn_pagar").click(function() {
+        var altura = 590;
+        var anchura = 700;
+        var y = parseInt((window.screen.height / 2) - (altura / 2));
+        var x = parseInt((window.screen.width / 2) - (anchura / 2));
+        //nuevolink
+        var link = 'https://pagosweb.bancoripley.com.pe/pago-de-sef/index?utm_source=br-simple&utm_medium=boton-pago-sef&utm_campaign=br-simple-eecc';
+
+        window.open(link, "Pago de tarjeta", 'width=' + anchura + ',height=' + altura + ',top=40,left=' + x + ',toolbar=no,location=no,status=no,menubar=no,scrollbars=no,directories=no,resizable=no')
+    });
 </script>
 </body>
 
