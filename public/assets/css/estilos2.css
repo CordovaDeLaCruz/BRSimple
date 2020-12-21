@@ -589,7 +589,7 @@ a[data-toggle="modal"] {
 		display: flex; flex-flow: row; align-items: center; justify-content: center;
 	}
 	.FB_SS_btn_1_2::before{
-		content: url(assets/img/i-pdf.svg);
+		content: url(../../assets/img/i-pdf.svg);
 		padding: 0 15px 0 0;
 	}
 	.hijo_3{
@@ -2826,7 +2826,7 @@ a[data-toggle="modal"] {
 		margin-top: 25px;
 	}
 	.FB_SS_btn_1_2::before{
-		content: url(assets/img/i-pdf.svg);
+		content: url(../../assets/img/i-pdf.svg);
 		padding: 0 15px 0 0;
 	}
 	.logo_pts_v3{
@@ -5130,7 +5130,7 @@ a[data-toggle="modal"] {
 		display: flex; flex-flow: row; align-items: center; justify-content: center;
 	}
 	.FB_SS_btn_1_2::before{
-		content: url(assets/img/i-pdf.svg);
+		content: url(../../assets/img/i-pdf.svg);
 		padding: 0 15px 0 0;
 	}
 	.SB_FTHS_size_1_2{
