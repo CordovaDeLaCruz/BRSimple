@@ -294,8 +294,16 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+@media screen and (max-width:345px){
+    .tbl_SS{
+        height: 610px;
+    }
+}
 
 @media screen and (max-width:364px){
+    .section2{
+        margin-bottom: 60px;
+    }
     .tbl_EC{
         margin-top: -30px;
     }
@@ -578,11 +586,14 @@
         height:15px
     }
     .tbl_SS{
-        height:680px;
+        height:610px;
         background:#fff;
         box-shadow:0 10px 20px rgba(41,41,41,.03);
         border-radius:8px;
         margin-top:20px
+    }
+    .cardContainer{
+        margin-top:70px;
     }
     .font_SS_1{
         font-size:14px;
@@ -914,6 +925,9 @@
     #pts_disp{
         margin-left: 22px;
     }
+    .cardContainer{
+        margin-top:70px;
+    }
 }
 @media screen and (max-width:768px){
     .containerRPGO{
@@ -1119,6 +1133,12 @@
         flex-flow: row;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    #agenciesModalBtn{
+        padding-top:30px;
+    }
+    #agenciesIcon{
+        padding-top:22px;
     }
 }
 @media screen and (min-width:769px) and (max-width:991px){
@@ -1332,6 +1352,12 @@
         flex-flow: row;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    #agenciesModalBtn{
+        padding-top:70px;
+    }
+    #agenciesIcon{
+        padding-top:22px;
     }
 }
 @media screen and (min-width:365px)and (max-width:639px){
@@ -1617,7 +1643,7 @@
         height:15px
     }
      .tbl_SS{
-        height:610px;
+        height:580px;
         background:#fff;
         box-shadow:0 10px 20px rgba(41,41,41,.03);
         border-radius:8px;
@@ -1951,11 +1977,9 @@
           align-self: flex-start;
       }
       .meetCard{
-          margin-top: 30px;
+          margin-top: 70px;
           max-width: 343px;
       }
-  
-  
 }
 @media screen and (min-width:640px)and (max-width:768px){
     .centrar2,.font_subtit_ag_ksnt{
@@ -2255,7 +2279,7 @@
         height:15px
     }
      .tbl_SS{
-        height:610px;
+        height:580px;
         background:#fff;
         box-shadow:0 10px 20px rgba(41,41,41,.03);
         border-radius:8px;
@@ -2579,7 +2603,7 @@
           align-self: flex-start;
       }
       .meetCard{
-          margin-top: 30px;
+          margin-top: 70px;
           max-width: 343px;
       }
 }
@@ -3124,6 +3148,7 @@
         height:814px;
         width:1022px
     }
+    
      .FB_FS_font_1,.FB_FS_font_2,.FB_FS_font_3,.dsktp_sec_font_1,.font_footer_1_v2,.font_footer_2,.font_footer_3{
         margin-bottom:0;
         font-family:Montserrat;
@@ -3519,6 +3544,9 @@
         justify-content: center;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    #agenciesModalBtn{
+        padding-top:10px;
     }
 }
 @media (min-width:1200px){

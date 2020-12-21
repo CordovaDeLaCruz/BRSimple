@@ -96,7 +96,7 @@
 			<div class="tbl_EC">
 				<div class="container">
 					<div class="size_second_section_1">
-						<div class="col-md-6 col-xs-12">
+						<div class="col-md-6 col-xs-12 section2">
 							<div class="form-horizontal centrar3">
 								<label class="font_SS_1">ESTADO DE CUENTA</label>
 							</div>
@@ -216,14 +216,8 @@
 												data-toggle="modal" data-target="#myModal" onclick="showMap();">Descarga
 												tu Estado de cuenta</button>
 										</form>
-										<button id="id_btn_pagar" type="button" class="btn_SS_1_h" data-toggle="modal"
-											data-target="#myModal" onclick="showMap();">Paga aqu&#237;</button>
-										<div class="col-md-12 col-sm-12 w_p_l w_p_r centrar2" id="agenciesModalBtn">
-											<img src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/img_globo.svg"
-												alt="" />
-											<label class="FB_SS_font_6_2" data-toggle="modal" data-target="#myModal"
-												onclick="showMap();initMap();">Conoce nuestras agencias</label>
-										</div>
+										<button id="id_btn_pagar" type="button" class="btn_SS_1_h">Paga aqu&#237;</button>
+										
 										<!-- Modal -->
 										<div class="modal fade" id="myModal" role="dialog">
 											<div class="modal-dialog modal-lg">
@@ -3192,6 +3186,12 @@
 											</div>
 										</div>
 									</div>
+									<div class="col-md-12 col-sm-12 w_p_l w_p_r centrar2" id="agenciesModalBtn">
+										<img id="agenciesIcon" src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/img_globo.svg"
+											alt="" />
+										<label class="FB_SS_font_6_2" data-toggle="modal" data-target="#myModal"
+											onclick="showMap();initMap();">Conoce nuestras agencias</label>
+									</div>
 									<!--
 							<div class="col-md-12 col-xs-12 dist_SS_pdf" style="border-radius: 0px 0px 8px 8px; ">
 								<div class="col-md-offset-1 col-md-1 col-xs-1 w_p_l">
@@ -4108,6 +4108,16 @@
 		$("#" + markers[indice][0] + "_name").removeClass("font_txt_1").addClass("font_txt_1_mod");
 		$("#" + markers[indice][0] + "_img").removeClass("img_tienda").addClass("img_tienda_mod");
 	}
+	$("#id_btn_pagar").click(function() {
+        var altura = 590;
+        var anchura = 700;
+        var y = parseInt((window.screen.height / 2) - (altura / 2));
+        var x = parseInt((window.screen.width / 2) - (anchura / 2));
+        //nuevolink
+        var link = 'https://pagosweb.bancoripley.com.pe/pago-de-sef/index?utm_source=br-simple&utm_medium=boton-pago-sef&utm_campaign=br-simple-eecc';
+
+        window.open(link, "Pago de tarjeta", 'width=' + anchura + ',height=' + altura + ',top=40,left=' + x + ',toolbar=no,location=no,status=no,menubar=no,scrollbars=no,directories=no,resizable=no')
+    });
 </script>
 </body>
 
