@@ -249,6 +249,9 @@ a[data-toggle="modal"] {
     /* margin-top: 107px; */
     width: 480px;
 }
+.firstTip{
+	margin-top:30px;
+}
 @media screen and (min-width: 480px) and (max-width: 639px) {
 	.font_det_pdf{
 		font-family: Montserrat; font-style: normal;font-weight: 500; font-size: 2.6vw !important; line-height: 19px;color: #99969D; margin-bottom: 0px; margin-left: 10px;
@@ -2111,8 +2114,8 @@ a[data-toggle="modal"] {
 	.SB_SS_tbl_2{
 		background: #FFFFFF;
 		box-shadow: 0px 3px 25px rgba(41, 41, 41, 0.05);
-		border-radius: 8px 8px 0px 0px;
-		height: 491px;
+		border-radius: 8px;
+		height: 450px;
 	}
 	.SB_SS_font_4{
 		height: 25px;
@@ -2292,7 +2295,7 @@ a[data-toggle="modal"] {
 	}
 	.footer_new{
 		background-color: #EEEEEE;
-		height: 450px;
+		height: auto;
 	}
 	.font_footer_new{
 		width: 290px;
@@ -4412,7 +4415,7 @@ a[data-toggle="modal"] {
 		background: #FFFFFF;
 		box-shadow: 0px 3px 25px rgba(41, 41, 41, 0.05);
 		border-radius: 8px;
-		height: 491px;
+		height: 471px;
 	}
 	.SB_SS_font_4{
 		height: 25px;
@@ -4778,7 +4781,7 @@ a[data-toggle="modal"] {
 	}
 	.footer_new{
 		background-color: #F1F1F1;
-		height: 367px;
+		height: auto;
 	}
 	.font_footer_new{
 		font-family: Montserrat;
