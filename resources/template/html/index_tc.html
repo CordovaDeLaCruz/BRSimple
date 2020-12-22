@@ -66,7 +66,7 @@
 									src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/{{categoria.clasePuntosImg}}"
 									alt="" />
 								<img id="id_pts_imagen_dsktp" class="logo_pts" data-toggle="tooltip"
-									data-placement="top"
+									data-placement="bottom"
 									title="Si acumulas estos puntos al año podras subir de categor&#237;a: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							&nbsp;2,000  Puntos   =  Cliente Ripley &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;5,000  Puntos   = Cliente Silver &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 11,000  Puntos  = Cliente Gold"
 									src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/info.svg"
@@ -3255,7 +3255,282 @@
 						</div>
 					</div>
 				</div>
-
+				<div class="containerRPGO">
+					<div class="SB_SS_size_2">
+						<div class="col-md-12 col-sm-12 TB_SS_dist_1">
+							<div class="rpgoLogoContainer">
+								<img class="TB_SS_img_1"
+									src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/ripley_pt_go.png"
+									alt="" />
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-12 rpgoColumn">
+							<div class="col-md-12 col-sm-12 w_p_r w_p_l">
+								<label class="TB_SS_font_1">Cliente</label>
+								<label>
+									<span id="id_categoria">{{categoria.clasePuntos}}</span>&nbsp;
+									<img id="id_pts_imagen" class="SB_SS_img_3_1"
+										src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/{{categoria.clasePuntosImg}}"
+										alt="" />
+									<img id="quinto_tool2"
+										onclick="dataLayer.push({'event': 'virtualEvent','category': 'Estado de cuenta Simple - Home','action': 'Seleccionar botón ','label': 'Estado de cuenta - TooltipInfo'});"
+										class="SB_SS_img_3_2"
+										src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/tooltip_white.svg"
+										data-toggle="tooltip" data-placement="top" title=""
+										data-original-title="Si acumulas estos puntos al año podras subir de categoría: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+							&nbsp;2,000  Puntos   =  Cliente Ripley &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;5,000  Puntos   = Cliente Silver &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; 11,000  Puntos  = Cliente Gold">
+								</label>
+							</div>
+							<div class="col-md-12 col-sm-6 w_p_r w_p_l">
+								<div class="col-md-12 col-sm-12 w_p_r w_p_l TB_SS_dist_1">
+									<label class="TB_SS_font_2">Tienes</label>
+								</div>
+								<div class="col-md-12 col-sm-12 w_p_r w_p_l TB_SS_dist_1">
+									<label class="TB_SS_font_6">{{puntos.ptoDisponibles}}</label>
+								</div>
+								<div class="col-md-12 col-sm-12 w_p_r w_p_l TB_SS_dist_1">
+									<label class="TB_SS_font_7">puntos disponibles</label>
+								</div>
+							</div>
+							<div class="col-md-12 col-xs-12 w_p_l w_p_r TB_SS_dist_1">
+								<label class="TB_SS_font_9">Detalle de mis puntos:</label>
+							</div>
+							<div class="col-md-12 col-xs-12 w_p_l w_p_r TB_SS_dist_1 pointsTable">
+								<div class="TB_FS_tbl_1">
+									<div class="col-md-9 col-xs-9 line_TS_1 w_p_l w_p_r">
+										<label class="TB_FS_tbl_font_1 TB_FS_tbl_dist_1">Puntos ganados este
+											mes:</label>
+									</div>
+									<div class="col-md-3 col-xs-3 line_TS_1 w_p_l w_p_r derecha">
+										<label
+											class="TB_FS_tbl_font_1 TB_FS_tbl_dist_1">{{puntos.ptoGanados}}</label>
+									</div>
+									<hr class="pointDivider col-md-12 col-xs-12" />
+									<div class="col-md-9 col-xs-9 line_TS_1 w_p_l w_p_r">
+										<label class="TB_FS_tbl_font_1 TB_FS_tbl_dist_2">Puntos
+											canjeados:</label>
+									</div>
+									<div class="col-md-3 col-xs-3 line_TS_1 w_p_l w_p_r derecha">
+										<label
+											class="TB_FS_tbl_font_1 TB_FS_tbl_dist_2">{{puntos.ptoUtilizados}}</label>
+									</div>
+									<hr class="pointDivider col-md-12 col-xs-12" />
+									<div class="col-md-9 col-xs-9 w_p_l w_p_r">
+										<label class="TB_FS_tbl_font_1 TB_FS_tbl_dist_3">Puntos
+											caducados:</label>
+									</div>
+									<div class="col-md-3 col-xs-3 w_p_l w_p_r derecha">
+										<label
+											class="TB_FS_tbl_font_1 TB_FS_tbl_dist_3">{{puntos.ptoVencidos}}</label>
+									</div>
+									<hr class="pointDivider col-md-12 col-xs-12" />
+								</div>
+							</div>
+							<div class="col-md-12 col-xs-12 w_p_l w_p_r TB_SS_dist_1" id="afterPoints">
+								<label class="TB_SS_font_11">Con <b>{{puntos.ptoDisponibles}}</b> puntos obtienes un Gift Card de:</label>
+							</div>
+							<img class="rpgoCard" src="assets/img/rpgoCard.svg"/>
+							<div class="col-md-12 col-xs-12 w_p_l w_p_r TB_SS_dist_1 mobileMessage">
+								<label class="TB_SS_font_12">Te faltan <b>{{puntos.ptoDisponibles}}</b> puntos.</label>
+							</div>
+							<div class="col-md-12 col-xs-12 w_p_l w_p_r TB_SS_dist_1 mobileMessage">
+								<label class="TB_SS_font_11">Y así multiplicas el valor de tus puntos</label><span class="multiplierIcon"><img src="assets/img/x2.svg"/></span>
+							</div>
+							<div class="col-md-12 col-xs-12 rpgobenefitsTable">
+								<div class="col-md-12 col-xs-12 benefitRow">
+									<label class="col-md-6 col-sm-6 col-xs-6 rpgotableFont1">BENEFICIOS</label>
+									<label class="col-md-3 col-sm-3 col-xs-3 rpgotableFont2">SILVER</label>
+									<label class="col-md-3 col-sm-3 col-xs-3 rpgotableFont3">GOLD</label>
+								</div>
+								<div class="col-md-12 col-xs-12 benefitRow">
+									<label class="col-md-6 col-sm-6 col-xs-6 rpgotableFont1"></label>
+									<div class="col-md-3 col-sm-3 col-xs-3 starIcon"><img src="assets/img/silverStar.svg" width="16px" height="auto"/></div>
+									<div class="col-md-3 col-sm-3 col-xs-3 starIcon"><img src="assets/img/goldenStar.svg" width="16px" height="auto"/></div>
+									</div>
+								<div class="col-md-12 col-xs-12 benefitRow">
+									<label class="col-md-6 col-sm-6 col-xs-6 rpgotableFont4">En tu mes de cumpleaños multiplica tus puntos. </label>
+									<label class="col-md-3 col-sm-3 col-xs-3 rpgotableFont5">x3</label>
+									<label class="col-md-3 col-sm-3 col-xs-3 rpgotableFont5">x5</label>
+								</div>
+								<hr class="col-md-12 col-sm-12 benefitDivider"/>
+								<div class="col-md-12 col-xs-12 benefitRow">
+									<label class="col-md-6 col-sm-6 col-xs-6 rpgotableFont4">Despacho gratis en ripley.com </label>
+									<label class="col-md-3 col-sm-3 col-xs-3 rpgotableFont6">Compras mayores a S/299</label>
+									<label class="col-md-3 col-sm-3 col-xs-3 rpgotableFont6">Compras mayores a S/199 </label>
+								</div>
+								<hr class="col-md-12 col-sm-12 benefitDivider"/>
+								<div class="col-md-12 col-xs-12 benefitRow">
+									<label class="col-md-6 col-sm-6 col-xs-6 rpgotableFont4">Descuento en vestuario y calzado: Ripley y ripley.com </label>
+									<label class="col-md-3 col-sm-3 col-xs-3 rpgotableFont7">20%</label>
+									<label class="col-md-3 col-sm-3 col-xs-3 rpgotableFont7">30%</label>
+								</div>
+								<hr class="col-md-12 col-sm-12 benefitDivider"/>
+								<div class="col-md-12 col-xs-12 benefitRow">
+									<label class="col-md-6 col-sm-6 col-xs-6 rpgotableFont4">Vencimiento de RipleyPuntos </label>
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<label class="col-md-12 col-sm-12 col-xs-12 rpgotableFont8">12</label>
+										<label class="col-md-12 col-sm-12 col-xs-12 rpgotableFont9">meses</label>
+									</div>
+									<div class="col-md-3 col-sm-3 col-xs-3">
+										<label class="col-md-12 col-sm-12 col-xs-12 rpgotableFont8">24</label>
+										<label class="col-md-12 col-sm-12 col-xs-12 rpgotableFont9">meses</label>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 col-sm-12 bottomTip">
+								<img src="assets/img/tooltip.svg" />
+								<label class="TB_SS_font_13">Canjéalo por productos en nuestras tiendas, presentando tu tarjeta Ripley y DNI. (Necesitas  al menos 2.500 puntos para realizar el canje)</label>
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-12 rpgoColumn2">
+							<div>
+								<label>Con <b>{{puntos.ptoDisponibles}}</b> puntos obtienes un Gift Card de:</label>
+							</div>
+							<div class="benefitsTable">
+								<div class="col-md-12">
+									<label class="col-md-4 rpgoTableHeader">Establecimiento</label>
+									<label class="col-md-4 rpgoTableHeader">Tipo de Viaje</label>
+									<label class="col-md-4 rpgoTableHeader">Ripley Puntos Go</label>
+								</div>
+								<div class="col-md-12">
+									<div class="col-md-4">
+										<img src="assets/img/i-cineplanet.svg"/>
+									</div>
+									<div class="col-md-4">
+										<label class="tableFont1">MoviePack</label>
+										<label class="tableFont2">3 entradas 2D + Combo</label>
+										<label class="tableFont2">2 gaseosas medianas + cancha grande refill</label>
+									</div>
+									<div class="col-md-4">
+										<label class="tableFont3">2,500 RP</label>
+										<label class="tableFont4">Canje regular: 5,000 RP</label>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="col-md-4">
+										<img src="assets/img/i-metro.svg"/>
+										<img src="assets/img/i-wong.svg"/>
+									</div>
+									<div class="col-md-4">
+										<label class="tableFont5">Vale por S/ 60</label>
+									</div>
+									<div class="col-md-4">
+										<label class="tableFont3">3,000 RP</label>
+										<label class="tableFont4">Canje regular: 7,000 RP</label>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<label class="messageFont1">Te quedarían <b>{{puntos.ptoDisponibles}}</b> Ripleypuntos Go</label>
+							</div>
+							<div class="">
+								<label class="messageFont2">Acércate a una agencia Banco Ripley y solicita tu vale.</label>
+							</div>
+						</div>
+						<div class="col-md-12 col-sm-12 bottomTipDesktop">
+							<img src="assets/img/tooltip.svg" />
+							<label class="TB_SS_font_13">Canjéalo por productos en nuestras tiendas, presentando tu tarjeta Ripley y DNI. (Necesitas  al menos 2.500 puntos para realizar el canje)</label>
+						</div>
+					</div>
+				</div>
+				<div class="SB_TS_backg">
+					<div class="container">
+						<div id="tbl_movimientos" class="SB_TS_size">
+							<div class="col-md-12 col-lg-12 w_p_r w_p_l">
+								<label class="SB_TS_font_1">Resumen de <b>Movimientos</b></label>
+							</div>
+							<div class="col-md-12 col-lg-12 SB_TS_dist_1 derecha w_p_r w_p_l">
+								<label class="SB_TS_font_2">* Saldo Inicial</label>
+								<img class="SB_TS_img_1" data-toggle="tooltip" data-placement="top" title=""
+									src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/info.svg"
+									alt="" data-original-title="Es la deuda total del mes anterior."
+									onclick="dataLayer.push({'event': 'virtualEvent','category': 'Estado de cuenta Simple - Home','action': 'Seleccionar botón ','label': 'Estado de cuenta - TooltipInfo'});">
+							</div>
+							<div class="col-md-12 col-lg-12 w_p_r w_p_l SB_TS_size_1">
+								<div class="col-md-3 col-xs-3 line_SS_tbl_RM w_p_l w_p_r"
+									style="border-radius: 8px 0px 0px 0px;">
+									<label class="SB_TS_font_3">Fecha de Transacción</label>
+								</div>
+								<div class="col-md-7 col-xs-7 line_SS_tbl_RM w_p_l w_p_r">
+									<label class="SB_TS_font_4">Descripción</label>
+								</div>
+								<div class="col-md-2 col-xs-2 line_SS_tbl_RM w_p_l w_p_r"
+									style="border-radius: 0px 8px 0px 0px;">
+									<label class="SB_TS_font_5">Monto(S/)</label>
+								</div>
+							</div>
+	
+							<label id="cont_detalle" style="display: none;">{{producto.nroElementos}}</label>
+	
+							<!--TABLA MOVIMIENTOS-->
+							<!--{{#producto.transaccionBr}}
+							{{#isPar}}-->
+							<div class="col-md-12 col-xs-12 w_p_l w_p_r SB_FTS_dist_4">
+								<div name="fila_det" class="col-md-12 col-xs-12 SB_FTS_size_row_2 w_p_l w_p_r">
+									<div class="col-sm-3 col-xs-3 fecha w_p_l w_p_r">
+										<label name="FT1" class="SB_FTS_font_row_1">{{consumo}}</label>
+									</div>
+									<div class="col-sm-7 col-xs-7 w_p_l w_p_r">
+										<label class="SB_FTS_font_row_2 texto" data-toggle="tooltip" title=""
+											data-original-title="{{descripcion}}">{{descripcion}}</label>
+									</div>
+									<div class="col-sm-2 col-xs-2 w_p_l w_p_r">
+										<label class="SB_FTS_font_row_3">{{total}}</label>
+									</div>
+								</div>
+							</div>
+							<!--{{/isPar}}
+	
+							{{#isImpar}}-->
+							<div class="col-md-12 col-xs-12 w_p_l w_p_r SB_FTS_dist_4">
+								<div name="fila_det" class="col-md-12 col-xs-12 SB_FTS_size_row_1 w_p_l w_p_r">
+									<div class="col-sm-3 col-xs-3 fecha w_p_l">
+										<label name="FT1" class="SB_FTS_font_row_1">{{consumo}}</label>
+									</div>
+									<div class="col-sm-7 col-xs-7 w_p_l w_p_r">
+										<label class="SB_FTS_font_row_2 texto" data-toggle="tooltip" title=""
+											data-original-title="{{descripcion}}">{{descripcion}}</label>
+									</div>
+									<div class="col-sm-2 col-xs-2 w_p_l w_p_l">
+										<label class="SB_FTS_font_row_3">{{total}}</label>
+									</div>
+								</div>
+							</div>
+							<!--{{/isImpar}}
+							{{/producto.transaccionBr}}-->
+	
+							<div id="btn_movimientos" class="col-md-12 col-xs-12 SB_TS_size_2 centrar">
+								<figure style="margin-bottom: 0px;">
+									<label
+										onclick="dataLayer.push({'event': 'virtualEvent','category': 'Estado de cuenta Simple - Home','action': 'Seleccionar botón ','label': 'Estado de cuenta - MasMovimientos'});">
+										<img class="SB_TS_img_2"
+											src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/ver-mas-icon.png">&nbsp;
+										<span class="SB_TS_font_6">Ver m&#225;s movimientos</span>
+									</label>
+								</figure>
+							</div>
+							<div id="btn_descargar" class="col-md-12 col-xs-12 SB_TS_size_2 centrar"
+								style="display: none;">
+								<figure style="margin-bottom: 0px;">
+									<label
+										onclick="dataLayer.push({'event': 'virtualEvent','category': 'Estado de cuenta Simple - Home','action': 'Seleccionar botón ','label': 'Estado de cuenta - MenosMovimientos'});">
+										<img
+											src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/ver-menos.png">&nbsp;
+										<span class="SB_TS_font_6">&nbsp;Ver menos movimientos</span>
+									</label>
+								</figure>
+							</div>
+							<!--
+							<div class="col-sm-12 col-xs-12 SB_TS_size_2 centrar">
+								<div class="col-sm-12 col-xs-12">
+									<img class="SB_TS_img_2" src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/logo_pdf.svg" alt="" />
+									<label class="SB_TS_font_7">Para ver m&#225;s detalle, revisa el <b>PDF de tu Estado de cuenta</b> en: App Banco Ripley, Banca por internet y correo envíado anteriormente.</label>
+								</div>
+							</div>
+							-->
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</main>
@@ -3673,6 +3948,16 @@
 <script type="text/javascript">
 	$('.collapse').collapse(); $('.carousel').carousel({ interval: 5000 });
 	$(document).ready(function () {
+		//Show or not See more movements
+		var cont2 = document.getElementById('cont_detalle').innerHTML;
+
+        if (cont2 <= 4) {
+            $('#btn_movimientos').hide();
+            $('#btn_movimientos2').hide();
+        } else {
+            $('#btn_movimientos').show();
+            $('#btn_movimientos2').show();
+        }
 		//Disable cut copy paste
 		$(document).bind('cut copy paste', function (e) { e.preventDefault(); });
 		//Disable mouse right click
@@ -3704,7 +3989,7 @@
 		// document.getElementById("acor_ag_ksnt_txt_on").style.display = "none";
 
 		if (screen.width < 768) {
-			$('.fecha').hide();
+			//$('.fecha').hide();
 			$('.fecha_2').show();
 			$('#dkstp_img').hide();
 			$('#mbl_img').show();
