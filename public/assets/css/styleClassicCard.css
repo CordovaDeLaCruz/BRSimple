@@ -42,6 +42,14 @@
     border-bottom:.5px solid #d4d4d4;
     padding-right:0
   }
+  .line_SS_tbl_RM{
+    background-color: #FBFBFB;
+    /*//tener en cuenta*/
+    display:flex;
+    height: 46px;
+    align-items: center;
+    justify-items: center;
+  }
   .line_pop{
     border-bottom:1px solid #dcdcdc
   }
@@ -146,6 +154,10 @@
 .SB_TS_backg{
     padding-left:15px;
     padding-right:15px;
+    background-color: white;
+}
+.SB_FTS_size_row_2 {
+    background-color: #FBFBFB;
 }
 .SB_TS_font_1{
     height: 25px;
@@ -159,39 +171,42 @@
     margin-bottom: 0px;
 }
 .SB_TS_font_4{
-    height: 19px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    color: #523178;
-    margin-top: 33px;
-    margin-bottom: 11px;
-}
-.SB_TS_font_3{
     height: 14px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 17px;
     color: #523178;
-    margin-top: 33px;
-    /*margin-left: 53px;*/
+    margin-top: 16px;
     margin-bottom: 16px;
-    word-break: break-word;
+    background-color: #FBFBFB;
 }
-.SB_TS_font_5{
-    height: 19px;
+.SB_TS_font_3{
+    /*height: 14px;*/
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 17px;
     color: #523178;
-    margin-top: 33px;
-    margin-bottom: 11px;
+    margin-top: 0;
+    /*margin-left: 53px;*/
+    margin-bottom: 0;
+    word-break: break-word;
+    background-color: #FBFBFB;
+}
+.SB_TS_font_5{
+    height: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    color: #523178;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: #FBFBFB;
 }
 .texto{
     width: 130px;
@@ -1139,6 +1154,9 @@
     }
     #agenciesIcon{
         padding-top:22px;
+    }
+    .SB_TS_font_2, .SB_TS_img_1{
+        display:none;
     }
 }
 @media screen and (min-width:769px) and (max-width:991px){
