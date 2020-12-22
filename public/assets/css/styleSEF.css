@@ -126,6 +126,10 @@
       overflow-wrap: break-word;
   }
   @media screen and (max-width:364px){
+    .FB_SS_btn_1_2::before,.btn_SS_1_hec::before{
+        content:url(../../assets/img/i-pdf.svg);
+        padding:0 15px 0 0
+    }
       .ubicationCategoryText{
           margin-left: 40px;
       }
@@ -721,8 +725,8 @@
     }
   @media screen and (min-width:365px)and (max-width:639px){
     .ubicationCategoryText{
-        margin-left: 10px;
-        margin-top: 10px;
+        margin-left: 26px;
+        margin-top: 4px;
     }
     .dit_SS_C_lnk{
         margin-top: 17px;
@@ -2037,7 +2041,7 @@
         padding-left:6px
     }
      .FB_SS_btn_1_2::before,.btn_SS_1_hec::before{
-        content:url(assets/img/i-pdf.svg);
+        content:url(../../assets/img/i-pdf.svg);
         padding:0 15px 0 0
     }
      .font_txt_3,.font_txt_4{
