@@ -949,6 +949,20 @@
         background-color: #523178;
         /*height: 2200px;*/
     }
+    .collapseBtn{
+        background-color: #E9E9E9;
+        display:flex;
+        height: 40px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .collapseBtn label{
+        padding-left:15px;
+        font-family: "Montserrat";
+    }
+    .collapseBtn img{
+        padding-right: 15px;
+    }
     .rpgoColumn2, .bottomTipDesktop{
         display:none;
     }
@@ -2645,6 +2659,9 @@
 @media screen and (min-width:768px){
      .FB_tbl_1,.FB_tbl_1_1,.FB_tbl_2_2,.FB_tbl_3,.font_select_1,.sec_btn_1,.sec_btn_2,.tbl_FS_1{
         box-sizing:border-box
+    }
+    .collapseBtn{
+        display: none;
     }
      .dist_first_section_1,.dist_first_section_2{
         height:180px

@@ -3255,7 +3255,15 @@
 						</div>
 					</div>
 				</div>
-				<div class="containerRPGO">
+				<div class="collapseBtn" id="rpgoCollapse">
+					<label>Ripley Puntos Go</label>
+					<img src="http://pe-soapros-ripley-eci.s3-website-us-east-1.amazonaws.com/imagenes/estaticas/angle-arrow-down.png">
+				</div>
+				<div class="collapseBtn" id="rpgoExpand">
+					<label>Ripley Puntos Go</label>
+					<img src="http://pe-soapros-ripley-eci.s3-website-us-east-1.amazonaws.com/imagenes/estaticas/arrow_acordion.png">
+				</div>
+				<div class="containerRPGO" id="rpgoCollapsible">
 					<div class="SB_SS_size_2">
 						<div class="col-md-12 col-sm-12 TB_SS_dist_1">
 							<div class="rpgoLogoContainer">
@@ -3433,7 +3441,15 @@
 						</div>
 					</div>
 				</div>
-				<div class="SB_TS_backg">
+				<div class="collapseBtn" id="movCollapse">
+					<label>Tus movimientos</label>
+					<img src="http://pe-soapros-ripley-eci.s3-website-us-east-1.amazonaws.com/imagenes/estaticas/angle-arrow-down.png">
+				</div>
+				<div class="collapseBtn" id="movExpand">
+					<label>Tus movimientos</label>
+					<img src="http://pe-soapros-ripley-eci.s3-website-us-east-1.amazonaws.com/imagenes/estaticas/arrow_acordion.png">
+				</div>
+				<div class="SB_TS_backg" id="movCollapsible">
 					<div class="container">
 						<div id="tbl_movimientos" class="SB_TS_size">
 							<div class="col-md-12 col-lg-12 w_p_r w_p_l">
@@ -3987,7 +4003,8 @@
 		// document.getElementById("acor_4_3").style.display = "none";
 		// document.getElementById("acor_ag_ksnt_img_on").style.display = "none";
 		// document.getElementById("acor_ag_ksnt_txt_on").style.display = "none";
-
+		$('#rpgoExpand').hide();
+		$('#movExpand').hide();
 		if (screen.width < 768) {
 			//$('.fecha').hide();
 			$('.fecha_2').show();
@@ -4402,7 +4419,28 @@
         var link = 'https://pagosweb.bancoripley.com.pe/pago-de-sef/index?utm_source=br-simple&utm_medium=boton-pago-sef&utm_campaign=br-simple-eecc';
 
         window.open(link, "Pago de tarjeta", 'width=' + anchura + ',height=' + altura + ',top=40,left=' + x + ',toolbar=no,location=no,status=no,menubar=no,scrollbars=no,directories=no,resizable=no')
-    });
+	});
+	
+	$("#rpgoCollapse").click(function(){
+		$('#rpgoCollapsible').hide();
+		$('#rpgoExpand').show();
+		$('#rpgoCollapse').hide();
+	})
+	$("#rpgoExpand").click(function(){
+		$('#rpgoCollapsible').show();
+		$('#rpgoCollapse').show();
+		$('#rpgoExpand').hide();
+	})
+	$("#movCollapse").click(function(){
+		$('#movCollapsible').hide();
+		$('#movExpand').show();
+		$('#movCollapse').hide();
+	})
+	$("#movExpand").click(function(){
+		$('#movCollapsible').show();
+		$('#movCollapse').show();
+		$('#movExpand').hide();
+	})
 </script>
 </body>
 
