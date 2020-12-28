@@ -140,6 +140,7 @@
   }
   
   .cardContainer{
+      margin-top: 40px;
       justify-content: center;
       align-items: center;
       display: flex;
@@ -209,7 +210,7 @@
     background-color: #FBFBFB;
 }
 .texto{
-    width: 130px;
+    width: 100%;
     height: 19px;
     text-overflow:ellipsis;
     overflow:hidden;
@@ -228,7 +229,7 @@
     margin-bottom: 21px;*/
 }
 .SB_FTS_font_row_2{
-    max-width: 135px;
+    max-width: 100%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -237,6 +238,8 @@
     color: #6A6A6A;
     margin-top: 22px;
     margin-bottom: 11px;
+    white-space: normal;
+    height: auto;
 }
 .SB_FTS_font_row_3{
     height: 11px;
@@ -308,6 +311,9 @@
     width: 237px !important;
     margin-left: 10px;
     margin-right: 10px;
+}
+.panel-default>.panel-heading{
+    height:40px;
 }
 @media screen and (max-width:345px){
     .tbl_SS{
@@ -608,7 +614,7 @@
         margin-top:20px
     }
     .cardContainer{
-        margin-top:70px;
+        margin-top:40px;
     }
     .font_SS_1{
         font-size:14px;
@@ -941,10 +947,13 @@
         margin-left: 22px;
     }
     .cardContainer{
-        margin-top:70px;
+        margin-top:40px;
     }
 }
 @media screen and (max-width:768px){
+    .panel-default>.panel-heading{
+        height:40px;
+    }
     .containerRPGO{
         background-color: #523178;
         /*height: 2200px;*/

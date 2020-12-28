@@ -6043,7 +6043,7 @@ a[data-toggle="modal"] {
 		margin-bottom: 16.97px;
 	}
 	.SB_FTS_font_row_2{
-		height: 19px;
+		height: auto;
 		font-family: Montserrat;
 		font-style: normal;
 		font-weight: normal;
@@ -6052,6 +6052,7 @@ a[data-toggle="modal"] {
 		color: #6A6A6A;
 		margin-top: 18px;
 		margin-bottom: 18px;
+		white-space: normal;
 	}
 	.SB_FTS_font_row_1{
 		height: 15.9px;

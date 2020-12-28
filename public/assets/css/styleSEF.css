@@ -125,6 +125,9 @@
       word-wrap: break-word;
       overflow-wrap: break-word;
   }
+  .panel-default>.panel-heading{
+    height:40px;
+}
   @media screen and (max-width:364px){
     .FB_SS_btn_1_2::before,.btn_SS_1_hec::before{
         content:url(../../assets/img/i-pdf.svg);
