@@ -3651,6 +3651,11 @@
 <script src="https://maps.google.com/maps/api/js?key=AIzaSyB2pF_ZfoEmC3-BwGJoFVrDKqihYtwmO2M"></script>
 
 <script>
+	$('html').on('click', function(e) {
+		if (typeof $(e.target).data('original-title') == 'undefined') {
+			$('[data-original-title]').popover('hide');
+		}
+		});
 	function showMap(position) {
 		map = new google.maps.Map(document.getElementById('map'), { center: { lat: -8.8522658, lng: -78.3890572 }, zoom: 5 });
 		infoWindow = new google.maps.InfoWindow;

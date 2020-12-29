@@ -4729,6 +4729,11 @@
 <script src="https://maps.google.com/maps/api/js?key=AIzaSyB2pF_ZfoEmC3-BwGJoFVrDKqihYtwmO2M"></script>
 
 <script>
+    $('html').on('click', function(e) {
+        if (typeof $(e.target).data('original-title') == 'undefined') {
+            $('[data-original-title]').popover('hide');
+        }
+        });
     $(document).ready(function() {
         //$('#dsktp_O1').hide();
         //$('#dsktp_O2').hide();
