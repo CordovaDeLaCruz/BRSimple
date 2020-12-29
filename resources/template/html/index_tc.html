@@ -121,8 +121,14 @@
 													title="Es la suma del importe a pagar de la amortizaci&#243;n de la deuda revolvente, la cuota del mes, las comisiones y los cargos. En caso tuvieras un monto atrasado, penalidades y/o sobregiros, estos se sumar&#225;n en su totalidad del pago m&#237;nimo."
 													src="http://pe-soapros-ripley-eci.s3-website-us-east-1.amazonaws.com/imagenes/estaticas/info.svg"
 													alt="" />
-												<img id="primero_tool" class="logo_tool"
+												<img id="primero_tool" class="logo_pts" data-toggle="tooltip"
+													data-placement="top"
 													src="http://pe-soapros-ripley-eci.s3-website-us-east-1.amazonaws.com/imagenes/estaticas/info.svg"
+													alt="" />
+												<img id="id_pts_imagen_dsktp" class="logo_pts" data-toggle="tooltip"
+													data-placement="bottom"
+													title="Si acumulas estoss Puntos  = Cliente Gold"
+													src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/info.svg"
 													alt="" />
 											</div>
 											<div class="col-md-4 col-xs-7 w_p_l w_p_r" style="text-align:right;">
@@ -3980,10 +3986,10 @@
 		//Disable mouse right click
 		$(document).on("contextmenu", function (e) { return false; });
 		//tooltip
-		$('#primero_tool').tooltip({ title: "Es la suma del importe a pagar de la amortización de la deuda revolvente, la cuota del mes, las comisiones y los cargos. En caso tuvieras un monto atrasado, penalidades y/o sobregiros, estos se sumarán en su totalidad del pago mínimo.", trigger: "click" });
-		$('#segundo_tool').tooltip({ title: "Es la fecha límite para cancelar tu estado de cuenta.", trigger: "click" });
-		$('#tercero_tool').tooltip({ title: "Es la suma de consumos financiados con tu tarjeta, incluyendo sobregiros, comisiones y cargos.", trigger: "click" });
-		$('#cuarto_tool').tooltip({ title: "Es el pago mínimo exigible no cobrado en el mes anterior.", trigger: "click" });
+		$('#primero_tool').tooltip({ title: "Es la suma del importe a pagar de la amortización de la deuda revolvente, la cuota del mes, las comisiones y los cargos. En caso tuvieras un monto atrasado, penalidades y/o sobregiros, estos se sumarán en su totalidad del pago mínimo." });
+		$('#segundo_tool').tooltip({ title: "Es la fecha límite para cancelar tu estado de cuenta."});
+		$('#tercero_tool').tooltip({ title: "Es la suma de consumos financiados con tu tarjeta, incluyendo sobregiros, comisiones y cargos."});
+		$('#cuarto_tool').tooltip({ title: "Es el pago mínimo exigible no cobrado en el mes anterior."});
 		$('#quinto_tool').tooltip({ title: "Es la deuda total del mes anterior.", trigger: "click" });
 
 		//if(a >=4 )se muestra los 4 primeros

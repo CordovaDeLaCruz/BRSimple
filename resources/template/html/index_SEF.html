@@ -3753,11 +3753,11 @@
         //Disable mouse right click
         $(document).on("contextmenu", function (e) { return false; });
         //tooltip
-        $('#primero_tool').tooltip({ title: "Es la suma del importe a pagar de la amortización de la deuda revolvente, la cuota del mes, las comisiones y los cargos. En caso tuvieras un monto atrasado, penalidades y/o sobregiros, estos se sumarán en su totalidad del pago mínimo.", trigger: "click" });
-        $('#segundo_tool').tooltip({ title: "Es la fecha límite para cancelar tu estado de cuenta.", trigger: "click" });
-        $('#tercero_tool').tooltip({ title: "Es la suma de consumos financiados con tu tarjeta, incluyendo sobregiros, comisiones y cargos.", trigger: "click" });
-        $('#cuarto_tool').tooltip({ title: "Es el pago mínimo exigible no cobrado en el mes anterior.", trigger: "click" });
-        $('#quinto_tool').tooltip({ title: "Es la deuda total del mes anterior.", trigger: "click" });
+        $('#primero_tool').tooltip({ title: "Es la suma del importe a pagar de la amortización de la deuda revolvente, la cuota del mes, las comisiones y los cargos. En caso tuvieras un monto atrasado, penalidades y/o sobregiros, estos se sumarán en su totalidad del pago mínimo."});
+        $('#segundo_tool').tooltip({ title: "Es la fecha límite para cancelar tu estado de cuenta."});
+        $('#tercero_tool').tooltip({ title: "Es la suma de consumos financiados con tu tarjeta, incluyendo sobregiros, comisiones y cargos." });
+        $('#cuarto_tool').tooltip({ title: "Es el pago mínimo exigible no cobrado en el mes anterior."});
+        $('#quinto_tool').tooltip({ title: "Es la deuda total del mes anterior." });
 
         //if(a >=4 )se muestra los 4 primeros
         $("div[name='fila_det']").map(function (a) { if (a >= 4) { return ($(this).hide()); } });
