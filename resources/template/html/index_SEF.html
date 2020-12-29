@@ -187,13 +187,15 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-xs-12" style="margin-top: 10px;">
-                                            <button id="id_btn_eecc" type="button" class="btn_SS_1_hec mobile">Estado de
-                                                cuenta</button>
-                                            <button id="id_btn_eecc" type="button" class="btn_SS_1_hec desktop">Descarga
-                                                tu
-                                                Estado de cuenta</button>
-                                            <button id="id_btn_pagar" type="button" class="btn_SS_1_h">Pagar
-                                                Súper Efectivo</button>
+                                            <form method="post" action="{{metadata.fileupload}}">
+                                                <input type="hidden" name="alias" value="producto_descargar"/>
+                                                <input type="hidden" name="id" value="{{capacniam_producto_id}}"/>
+                                                <input type="hidden" name="periodo" value="{{capacniam_producto_periodo}}"/>
+                                                <input type="hidden" name="data" value="1"/>
+                                                <button id="id_btn_eecc" type="button" class="btn_SS_1_hec mobile">Estado de cuenta</button>
+                                                <button id="id_btn_eecc" type="button" class="btn_SS_1_hec desktop">Descarga tu Estado de cuenta</button>
+                                            </form>
+                                            <button id="id_btn_pagar" type="button" class="btn_SS_1_h">Pagar Súper Efectivo</button>
                                             <div class="centrar2" id="agenciesModalBtn">
                                                 <img src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/img_globo.svg"
                                                     class="FB_SS_size_1_2" alt="" />

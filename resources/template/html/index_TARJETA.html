@@ -256,8 +256,13 @@
                                         </label>
                                     </div>
                                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 w_p_l w_p_r">
-                                        <button id="" type="button" class="FB_SS_btn_1_2 centrar2">Descargar
-                                            tu Estado de Cuenta</button>
+                                        <form method="post" action="{{metadata.fileupload}}">
+                                            <input type="hidden" name="alias" value="producto_descargar"/>
+                                            <input type="hidden" name="id" value="{{capacniam_producto_id}}"/>
+                                            <input type="hidden" name="periodo" value="{{capacniam_producto_periodo}}"/>
+                                            <input type="hidden" name="data" value="1"/>
+                                            <button id="id_btn_eecc_1" type="button" class="FB_SS_btn_1_2 centrar2">Descargar tu Estado de Cuenta</button>
+                                        </form>
                                         <!--
                                             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 w_p_l w_p_r">
                                                 <img class="SB_SS_img_1" src="https://pe-soapros-capacniam-bucket-recursos-test.s3.amazonaws.com/capacniam/bn_ripley/recursos_estaticos/imagenes/estaticas/banderas.svg" alt="" />
@@ -2382,7 +2387,13 @@
                                     <label class="SB_SS_font_2">{{tarjeta.perFac}}</label>
                                 </div>
                                 <div class="col-xs-12 col-md-12 w_p_l centrar2">
-                                    <button id="" class="FB_SS_btn_1_2">Estado de cuenta</button>
+                                    <form method="post" action="{{metadata.fileupload}}">
+                                        <input type="hidden" name="alias" value="producto_descargar"/>
+                                        <input type="hidden" name="id" value="{{capacniam_producto_id}}"/>
+                                        <input type="hidden" name="periodo" value="{{capacniam_producto_periodo}}"/>
+                                        <input type="hidden" name="data" value="1"/>
+                                        <button id="id_btn_eecc_2" class="FB_SS_btn_1_2">Estado de cuenta</button>
+                                    </form>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                     <div class="SB_SS_tbl_2">
